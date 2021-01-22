@@ -39,7 +39,7 @@ header img{
   margin: 2% 0;
 }
 #header-width{
-  width: 85%;
+  min-width: 85%;
   margin-right: auto;
   margin-left: auto;
  
@@ -70,13 +70,25 @@ header a:hover{
 }
 #side-img{
   width: 80%;
-  height: 30%;
+  height: 600px;
   margin-right: auto;
   margin-left: auto ;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #side-img img{
+  text-align: center;
   width: 100%;
-  height: 100%;
+  height: fit-content;
+  
+
+}
+footer h1{
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 footer{
   background-color: rgba(236, 236, 177, 0.829);
@@ -89,6 +101,9 @@ footer h3{
   display: inline;
   font-size: xx-large;
   margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
 }
 footer h3 a{
   margin-bottom: 50px;
@@ -109,8 +124,9 @@ footer a:hover{
   color: rgb(182, 112, 21);
 }
 footer ul{
-  
-  margin-right:200px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
 }
 #logo2{
   font-family: 'Hachi Maru Pop', cursive;
