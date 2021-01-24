@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+header{
+    min-width: 100%;
+    /* position: fixed; */
+    background-color:#ffcccc;
+    height: 130px;
+  }
+
+  main{
+    min-height: 100em;
+    padding-top: 6%;
+    background-color:  #6e4343; 
+  }
+
+ .card img{
+    height: 200px;
+    width: 300px; 
+} 
+
+.card img:hover {
+    box-shadow: 0 8px 16px 0  #ffcccc;
+    width: 320px;
+    z-index: 1px;
+  }
+
+h2{
+    color:white;
+    font-family:'Caveat', cursive;
+    /* font-stretch: condensed; */
+    text-shadow: 0 0 3px #ffcccc, 0 0 5px  rgba(95, 36, 36, 0.815);
+    letter-spacing: 0.3em;
+    font-size: xx-large;
+    font-weight: bolder;
+    margin-top: -75px;
+  }
+
+#main-img{
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+}
+.container a{
+  display: block;
+  text-decoration: none;
+  margin: 20px;
+  font-size: x-large;
+  border: solid;
+  color: #FFE4C4;
+  border-radius: 15px;
+}
+.container a:hover{
+  color:rgba(95, 36, 36, 0.815);
+
+}
+
+footer{
+    background-color: #ffcccc;
+    text-align: center;
+    padding: 70px;
+    padding-top: 20px;
+    height: 50px;
+  }
+  footer h3{
+    display: inline;
+    font-size: xx-large;
+    margin-bottom: 50px;
+  }
+  
+  footer h3 a{
+    margin-bottom: 50px;
+  
+  }
+  #foot-list{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .clear{
+    clear: both;
+  }
+  footer ul{
+    
+    margin-right: 0%;
+    margin-top: -1.5%; 
+  }
+  
+  footer h4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  
+   #icons a{
+     display: block;
+     margin-top: 5px;
+   }
+  
+   #icn1{
+     float: left;
+    
+   }
+  
+   #icn2{
+     margin-left: 20px;
+   }
+  
+   #icn3{
+     float: right;
+   }

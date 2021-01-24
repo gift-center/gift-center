@@ -1,5 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 #logo{
  font-family: 'Hachi Maru Pop', cursive;
  display: inline-block;
@@ -20,9 +22,7 @@ h1{
 }
 main{
   min-height: 100em;
-  padding-top: 6%;
-  
-  background-color:  rgba(165, 28, 55, 0.842);
+  background-color:  #6e4343; 
 }
 a{
   text-decoration: none;
@@ -30,66 +30,74 @@ a{
   transition: 1s color;  
 
 }
-header{
+ header{
   min-width: 100%;
-  position: fixed;
-  background-color: rgb(241, 44, 83);
-}
-header img{
-  margin: 2% 0;
-}
-#header-width{
-  width: 85%;
-  margin-right: auto;
-  margin-left: auto;
- 
+  /* position: fixed; */
+  background-color:#ffcccc;
+  height: 130px;
 }
 #list-header{
   margin-right: 50px;
   margin-left: 10px;
   display: inline;
 }
-ul{
-  margin-right: 32%;
-  margin-top: 1.5%;
+#list-header ul{
+  margin-right: 10%;
+  margin-top: 3.5%; 
   float: right;
-  margin-top: 10px;
 }
 li{
   display: inline-block;
-  margin-right: 20px;
-  margin-left: 20px;
   padding: 5px;
+  font-family: 'Indie Flower', cursive;
   font-size: large;
 }
 header a:hover{
   transition: 1s color;
   border-bottom: 1px solid whitesmoke;
-  color: antiquewhite;
+  color:  #DB7093;
+  font-size: x-large;
   font-weight: 800;
 }
 #side-img{
-  width: 80%;
-  height: 30%;
-  margin-right: auto;
-  margin-left: auto ;
-}
-#side-img img{
+  position: relative;
   width: 100%;
+  height: 450px;
+}
+
+.top-left {
+  position: absolute;
+  top: 150px;
+  left: 320px;
+  color: white;
+  text-shadow: 0 0 3px #ffcccc, 0 0 5px  rgba(95, 36, 36, 0.815);
+  line-height: 55px;
+  font-size: xx-large;
+  font-family:'Caveat', cursive;
+
+}
+
+#side-img img{
+  width: 75%;
   height: 100%;
+  padding: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 footer{
-  background-color: rgba(236, 236, 177, 0.829);
+  background-color: #ffcccc;
   text-align: center;
   padding: 70px;
   padding-top: 20px;
-  height: 130px;
+  height: 50px;
 }
 footer h3{
   display: inline;
   font-size: xx-large;
   margin-bottom: 50px;
 }
+
 footer h3 a{
   margin-bottom: 50px;
 
@@ -110,8 +118,16 @@ footer a:hover{
 }
 footer ul{
   
-  margin-right:200px;
+  margin-right: 0%;
+  margin-top: -1.5%; 
 }
+
+footer h4{
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 #logo2{
   font-family: 'Hachi Maru Pop', cursive;
   display: inline-block;
@@ -125,4 +141,26 @@ footer ul{
  #logo2:hover{
    transition: 1s color;
    color: rgb(214, 142, 47);
+ }
+
+ #icons a{
+   display: block;
+   margin-top: 5px;
+ }
+
+ #icn1{
+   float: left;
+  
+ }
+
+ #icn2{
+   margin-left: 20px;
+ }
+
+ #icn3{
+   float: right;
+ }
+
+ #side-img{
+
  }

@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+
+header{
+    min-width: 100%;
+    /* position: fixed; */
+    background-color:white;
+    height: 90px;
+  }
+
+#statistics {
+    /* display: none; */
+    margin-top: 50px;
+    padding-right: 150px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 200px;
+    /* background-color: #fff; */
+    height: 600px;
+  }
+
+  
+  
+  #statistics h2 {
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-left: -200px;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .border-line {
+    width: 350px;
+    height: 2.5px;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    margin-left: 390px;
+    margin-right: auto;
+    background-color: #c94b4b;
+  }
+  
+  #myChart {
+    width: 90% !important;
+    height: 400px !important;
+  }
+
+label{
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+}
+
+input{
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 15px;
+    height: 100px;
+}
+
+button{
+    float: right;
+    margin-right: 90px;
+    margin-top: 5px;
+    width: 100px;
+    height: 35px;
+    font-weight: bolder;
+    /* font-family: 'Dancing Script', cursive; */
+    font-style: oblique;
+    background-color: white;
+    border-radius: 15px;
+    border:solid rgba(112, 35, 35, 0.76);
+}
+
+#comments-container{
+    width: 95%;
+    border: 2px solid rgba(112, 35, 35, 0.76);
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+#feedback{
+    margin-top: 25px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-size: xx-large;
+    font-family: 'Dancing Script', cursive;
+
+}
+

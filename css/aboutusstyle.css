@@ -1,0 +1,155 @@
+main{
+    min-height: 100em;
+    /* padding-top: 6%;
+     */
+    background-color:  #FFE4C4; 
+  }
+  a{
+    text-decoration: none;
+    color: rgb(114, 77, 28);
+    transition: 1s color;  
+  
+  }
+   header{
+    min-width: 100%;
+    /* position: fixed; */
+    background-color:white;
+    height: 130px;
+  }
+  #list-header{
+    margin-right: 50px;
+    margin-left: 10px;
+    display: inline;
+  }
+  #list-header ul{
+    margin-right: 10%;
+    margin-top: 2.5%; 
+    float: right;
+  }
+  li{
+    display: inline-block;
+    /* margin-top: 35px; */
+    /* margin-right: 20px; */
+    /* margin-left: 20px; */
+    padding: 5px;
+    font-family: 'Caveat', cursive;
+    font-size: large;
+    /* font-weight: bolder; */
+  }
+  header a:hover{
+    transition: 1s color;
+    border-bottom: 1px solid whitesmoke;
+    color:  #DB7093;
+    font-size: x-large;
+    font-weight: 800;
+  }
+
+
+  #main-div {
+    position: relative;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-left: 150px; 
+    /* text-align: center; */
+    background-color:  #DB7093 ;
+    box-shadow: 0 4px 8px 0 rgba(112, 35, 35, 0.76);
+    transition: 0.3s;
+    width: 1000px;
+    height: 1500px;
+    border-radius: 5%;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 30px;
+    
+    
+  }
+  
+  #main-div img{
+    position: relative;
+    display: inline-block;
+    border-radius: 50%;
+    height: 175px;
+    width: 200px;
+    margin-top: 5px;
+    margin-left: 15px ;
+    display: inline;
+
+  }
+
+
+  footer{
+    background-color: white;
+    text-align: center;
+    padding: 70px;
+    padding-top: 20px;
+    height: 50px;
+  }
+  footer h3{
+    display: inline;
+    font-size: xx-large;
+    margin-bottom: 50px;
+  }
+  
+  footer h3 a{
+    margin-bottom: 50px;
+  
+  }
+  #foot-list{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  .clear{
+    clear: both;
+  }
+  footer a:hover{
+    color: rgb(182, 112, 21);
+  }
+  footer ul{
+    
+    margin-right: 0%;
+    margin-top: -1.5%; 
+  }
+  
+  footer h4{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+  
+  #logo2{
+    font-family: 'Hachi Maru Pop', cursive;
+    display: inline-block;
+    height: 35px;
+  
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: 900;
+   }
+   
+   #logo2:hover{
+     transition: 1s color;
+     color: rgb(214, 142, 47);
+   }
+  
+   #icons a{
+     display: block;
+     margin-top: 5px;
+   }
+  
+   #icn1{
+     float: left;
+    
+   }
+  
+   #icn2{
+     margin-left: 20px;
+   }
+  
+   #icn3{
+     float: right;
+   }
+  

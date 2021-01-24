@@ -1,43 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+
 .card {
   margin-right: 50px;
-  margin-top: 50px;
-  margin-left: 100px;
-  background-color:  rgba(148, 32, 55, 0.842);
+  margin-top: 20px;
+  margin-left: 140px;
+  background-color:  #ffcccc;
   box-shadow: 0 4px 8px 0 rgba(112, 35, 35, 0.76);
   transition: 0.3s;
   width: 300px;
-  height: 300px;
+  height: 320px;
   border-radius: 5%;
   overflow: hidden;
   display: inline-block;
-  
-  
+  margin-bottom: 80px;  
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0 rgba(95, 36, 36, 0.815);
+  box-shadow: 0 8px 16px 0  #ffcccc;
+  width: 320px;
+  height: 350px;
+  z-index: 1px;
 }
 
 .container {
-  
   margin-top: 5%;
   text-align: center;
   padding: 2px 16px;
 }
-.container h4{
-  color: rgb(221, 202, 178);
-  font-family: 'Balsamiq Sans', cursive;
+.container h4, h3{
+  color:#6e4343;
+  font-family: 'Caveat', cursive;
   font-stretch: condensed;
-  letter-spacing: 0.3em;
-  font-weight: 400;
+  font-size: x-large;
+  font-weight: bolder;
 }
-.container p{
-  font-family: 'Balsamiq Sans', cursive;
-  line-height: 1.5em;
-  color: rgb(219, 183, 139);
-  font-size: small;
-}
+
 #main-img{
   margin-top: 5%;
   margin-right: auto;
@@ -48,11 +47,15 @@
   display: block;
   text-decoration: none;
   margin: 20px;
-  font-size: xx-large;
+  font-size: x-large;
+  font-family:'Caveat', cursive;
   border: solid;
-  color: rgb(146, 119, 82);
+  color: rgba(95, 36, 36, 0.815);
+  border-radius: 15px;
+  font-size: xx-large;
+  font-weight: bolder;
 }
 .container a:hover{
-  color: aliceblue;
+  color:white;
 
 }
