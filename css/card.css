@@ -14,7 +14,7 @@
   border-radius: 5%;
   overflow: hidden;
   display: inline-block;
-  margin-bottom: 80px;  
+  /* margin-bottom: 80px;   */
 }
 
 .card:hover {
@@ -57,5 +57,12 @@
 }
 .container a:hover{
   color:white;
+
+}
+
+.categorySection{
+  margin-top: 150px;
+  margin-left: 15px;
+  margin-bottom: 15px;
 
 }
