@@ -35,7 +35,7 @@
   padding: 2px 16px;
 }
 .container h4, h3{
-  color:#6e4343;
+  color: #DB7093;
   font-family: 'Caveat', cursive;
   font-stretch: condensed;
   font-size: x-large;
@@ -52,10 +52,6 @@
   margin-left: auto;
   width: 80%;
 }
-.card-img {
-  height: 150px;
-  overflow: hidden;
-}
 .container a{
   display: block;
   text-decoration: none;
@@ -63,13 +59,17 @@
   font-size: x-large;
   font-family:'Caveat', cursive;
   border: solid;
-  color: rgba(95, 36, 36, 0.815);
+  background-color:   #DB7093;
+  color: white;
+  width: 100px;
   border-radius: 15px;
   font-size: xx-large;
   font-weight: bolder;
+  margin-left: 95px;
 }
 .container a:hover{
-  color:white;
+  color: #41aea9;
+  background-color: white;
 
 }
 
