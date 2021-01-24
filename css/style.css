@@ -6,9 +6,12 @@
  height: 35px;
  margin-top: 15px;
  margin-right: 70px;
- font-size: large;
+ font-size: 25px;
  font-style: italic;
  font-weight: 900;
+ margin-left: 20px;
+ text-align: center;
+
 }
 
 #logo:hover{
@@ -16,24 +19,23 @@
   color: antiquewhite;
 }
 h1{
-  color: brown;
+  color: blanchedalmond;
 }
 main{
   min-height: 100em;
   padding-top: 6%;
-  
-  background-color:  rgba(165, 28, 55, 0.842);
+  background-color:#6e4343;
 }
 a{
   text-decoration: none;
-  color: rgb(114, 77, 28);
+  color: rgb(240, 166, 71);
   transition: 1s color;  
 
 }
 header{
   min-width: 100%;
   position: fixed;
-  background-color: rgb(241, 44, 83);
+  background-color: #965d62;
 }
 header img{
   margin: 2% 0;
@@ -55,7 +57,7 @@ ul{
   float: right;
   margin-top: 10px;
 }
-li{
+#list-header li{
   display: inline-block;
   margin-right: 20px;
   margin-left: 20px;
@@ -77,11 +79,14 @@ header a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  border: 3px solid rgb(240, 166, 71);;
+
 }
 #side-img img{
   text-align: center;
   width: 100%;
   height: fit-content;
+  
   
 
 }
@@ -91,7 +96,7 @@ footer h1{
   width: 100%;
 }
 footer{
-  background-color: rgba(236, 236, 177, 0.829);
+  background-color: #534e52;
   text-align: center;
   padding: 70px;
   padding-top: 20px;
@@ -142,3 +147,26 @@ footer ul{
    transition: 1s color;
    color: rgb(214, 142, 47);
  }
+
+ .socialIcon {
+  text-align: center;
+  list-style: inside;
+  margin-top: 20px;
+}
+
+.socialIcon li{
+  display: inline-block;
+  padding: 3px;
+  font-size: large;
+}
+
+footer img {
+  height: 35px;
+  width: 35px;
+}
+
+.location li {
+  display: block;
+  text-align: center;
+  color: darkgoldenrod;
+}
