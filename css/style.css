@@ -32,19 +32,10 @@ a{
 }
  header{
   min-width: 100%;
+  /* position: fixed; */
   background-color:#ffcccc;
-  height: 130px;
-  background-color: rgb(241, 44, 83);
-}
-header img{
-  margin: 2% 0;
-}
-/*#header-width{
-  min-width: 85%;
-  margin-right: auto;
-  margin-left: auto;
- 
-}*/
+  height: 130px;}
+
 #list-header{
   margin-right: 50px;
   margin-left: 10px;
@@ -83,16 +74,6 @@ header a:hover{
   line-height: 55px;
   font-size: xx-large;
   font-family:'Caveat', cursive;
-
-/*   width: 80%;
-  height: 600px;
-  margin-right: auto;
-  margin-left: auto ;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3 */
 }
 
 #side-img img{
@@ -102,11 +83,6 @@ header a:hover{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-/*   text-align: center;
-  width: 100%;
-  height: fit-content; */
-  
-
 }
 footer h1{
   margin-left: auto;
@@ -156,23 +132,8 @@ footer h4{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-  width: 100%;
 }
 
-#logo2{
-  font-family: 'Hachi Maru Pop', cursive;
-  display: inline-block;
-  height: 35px;
-
-  font-size: xx-large;
-  font-style: italic;
-  font-weight: 900;
- }
- 
- #logo2:hover{
-   transition: 1s color;
-   color: rgb(214, 142, 47);
- }
 
  #icons a{
    display: block;
@@ -192,6 +153,3 @@ footer h4{
    float: right;
  }
 
- #side-img{
-
- }
