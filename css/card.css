@@ -4,15 +4,11 @@
 
 .card {
   margin-right: 50px;
-<<<<<<< HEAD
   margin-top: 20px;
   margin-left: 140px;
   background-color:  #ffcccc;
-=======
   margin-top: 50px;
   margin-left: 130px;
-  background-color:  rgba(148, 32, 55, 0.842);
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3
   box-shadow: 0 4px 8px 0 rgba(112, 35, 35, 0.76);
   transition: 0.3s;
   width: 300px;
