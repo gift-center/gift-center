@@ -2,25 +2,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
 
+*{
+  box-sizing: border-box;
+}
+
 .card {
-  margin-right: 50px;
+  /* margin-right: 50px;
   margin-top: 20px;
-  margin-left: 140px;
-  background-color:  #ffcccc;
+  margin-left: 140px; */
+  background-color: #FEE5E0;
   box-shadow: 0 4px 8px 0 rgba(112, 35, 35, 0.76);
+  padding: 5px;
   transition: 0.3s;
-  width: 300px;
+  /* width: 300px; */
   height: 320px;
-  border-radius: 5%;
+  /* border-radius: 5%; */
   overflow: hidden;
   display: inline-block;
   /* margin-bottom: 80px;   */
 }
 
 .card:hover {
-  box-shadow: 0 8px 16px 0  #ffcccc;
-  width: 320px;
-  height: 350px;
+  /* box-shadow: 0 8px 16px 0  #ffcccc; */
+  /* width: 320px;
+  height: 350px; */
   z-index: 1px;
 }
 
@@ -38,10 +43,18 @@
 }
 
 #main-img{
-  margin-top: 5%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  margin-top: 2%;
+  margin-bottom: 1%;
   margin-right: auto;
   margin-left: auto;
   width: 80%;
+}
+.card-img {
+  height: 150px;
+  overflow: hidden;
 }
 .container a{
   display: block;
