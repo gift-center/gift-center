@@ -154,8 +154,11 @@ rendersShopsForKids();
 // function
 function rendersShopsForAccessories(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Accessories & Jewelry';
     for(var i=0; i<shopAccessorieArray.length; i++){
         shopDivider = document.createElement('div');
@@ -181,8 +184,11 @@ function rendersShopsForAccessories(){
 
 function rendersShopsForBooks(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Books and Novels';
     for(var i=0; i<shopBookArray.length; i++){
         shopDivider = document.createElement('div');
@@ -208,8 +214,11 @@ function rendersShopsForBooks(){
 
 function rendersShopsForCakes(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Cakes & Sweets';
     for(var i=0; i<shopCakeArray.length; i++){
         shopDivider = document.createElement('div');
@@ -235,8 +244,11 @@ function rendersShopsForCakes(){
 
 function rendersShopsForCosmetics(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Cosmetics & Makeup';
     for(var i=0; i<shopCosmeticsArray.length; i++){
         shopDivider = document.createElement('div');
@@ -262,8 +274,11 @@ function rendersShopsForCosmetics(){
 
 function rendersShopsForElectronics(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Electronis';
     for(var i=0; i<shopElectronicsArray.length; i++){
         shopDivider = document.createElement('div');
@@ -289,8 +304,11 @@ function rendersShopsForElectronics(){
 
 function rendersShopsForFlowers(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Flowers';
     for(var i=0; i<shopFlowersArray.length; i++){
         shopDivider = document.createElement('div');
@@ -316,8 +334,11 @@ function rendersShopsForFlowers(){
 
 function rendersShopsForFurniture(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Furnitures';
     for(var i=0; i<shopFurnituresArray.length; i++){
         shopDivider = document.createElement('div');
@@ -343,8 +364,11 @@ function rendersShopsForFurniture(){
 
 function rendersShopsForKids(){
     var shopDivider;
+    var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
-    mainDiv.appendChild(shopSection);
+    mainDiv.appendChild(shop);
+    shop.appendChild(shopSection);
+    shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Kids Shops';
     for(var i=0; i<shopKidsArray.length; i++){
         shopDivider = document.createElement('div');
