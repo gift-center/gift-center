@@ -32,24 +32,19 @@ a{
 }
  header{
   min-width: 100%;
-<<<<<<< HEAD
-  /* position: fixed; */
   background-color:#ffcccc;
   height: 130px;
-=======
-  position: fixed;
   background-color: rgb(241, 44, 83);
 }
 header img{
   margin: 2% 0;
 }
-#header-width{
+/*#header-width{
   min-width: 85%;
   margin-right: auto;
   margin-left: auto;
  
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3
-}
+}*/
 #list-header{
   margin-right: 50px;
   margin-left: 10px;
@@ -74,7 +69,6 @@ header a:hover{
   font-weight: 800;
 }
 #side-img{
-<<<<<<< HEAD
   position: relative;
   width: 100%;
   height: 450px;
@@ -90,8 +84,7 @@ header a:hover{
   font-size: xx-large;
   font-family:'Caveat', cursive;
 
-=======
-  width: 80%;
+/*   width: 80%;
   height: 600px;
   margin-right: auto;
   margin-left: auto ;
@@ -99,21 +92,19 @@ header a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3
+>>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3 */
 }
 
 #side-img img{
-<<<<<<< HEAD
   width: 75%;
   height: 100%;
   padding: 30px;
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-=======
-  text-align: center;
+/*   text-align: center;
   width: 100%;
-  height: fit-content;
+  height: fit-content; */
   
 
 }
@@ -121,7 +112,6 @@ footer h1{
   margin-left: auto;
   margin-right: auto;
   width: 100%;
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3
 }
 footer{
   background-color: #ffcccc;
@@ -157,9 +147,7 @@ footer h3 a{
 footer a:hover{
   color: rgb(182, 112, 21);
 }
-footer ul{
-<<<<<<< HEAD
-  
+footer ul{  
   margin-right: 0%;
   margin-top: -1.5%; 
 }
@@ -168,11 +156,7 @@ footer h4{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-=======
-  margin-right: auto;
-  margin-left: auto;
   width: 100%;
->>>>>>> 36407865062ae23fa2a225c8d8c8f37d0e376ff3
 }
 
 #logo2{
