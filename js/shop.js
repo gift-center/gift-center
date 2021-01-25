@@ -452,7 +452,7 @@ function rendersShopsForKids(){
 
 function rendershopcak(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForCakes",1);
 }
 if(localStorage.getItem("rendersShopsForCakes")){
@@ -463,7 +463,7 @@ if(localStorage.getItem("rendersShopsForCakes")){
 
 function rendersCosmetic(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForCosmetics",2);
 }
 if(localStorage.getItem("rendersShopsForCosmetics")){
@@ -475,7 +475,7 @@ if(localStorage.getItem("rendersShopsForCosmetics")){
 
 function rendersShopsForAccessorie(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForAccessories",1);
 }
 if(localStorage.getItem("rendersShopsForAccessories")){
@@ -485,7 +485,7 @@ if(localStorage.getItem("rendersShopsForAccessories")){
 
 function rendersShopsForBook(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForBooks",1);
 }
 if(localStorage.getItem("rendersShopsForBooks")){
@@ -495,7 +495,7 @@ if(localStorage.getItem("rendersShopsForBooks")){
 
 function rendersShopsForFurnitur(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForFurniture",1);
 }
 if(localStorage.getItem("rendersShopsForFurniture")){
@@ -504,7 +504,7 @@ if(localStorage.getItem("rendersShopsForFurniture")){
 }
 function rendersShopsForKid(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForKids",1);
 }
 if(localStorage.getItem("rendersShopsForKids")){
@@ -514,7 +514,7 @@ if(localStorage.getItem("rendersShopsForKids")){
 
 function rendersShopsForFlower(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForFlowers",1);
 }
 if(localStorage.getItem("rendersShopsForFlowers")){
@@ -523,7 +523,7 @@ if(localStorage.getItem("rendersShopsForFlowers")){
 }
 function rendersShopsForElectronic(){
     
-    window.location.replace("../gift-center/shop.html");
+    window.location.replace("../shop.html");
     localStorage.setItem("rendersShopsForElectronics",1);
 }
 if(localStorage.getItem("rendersShopsForElectronics")){
