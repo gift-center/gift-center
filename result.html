@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="assests/logo/logo.png">
+  <title>Gift Center</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/aboutusstyle.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://kit.fontawesome.com/ad5002e733.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <img style="height: 130px;" src="assests/logo/logo.png" alt="">
+    <div id="list-header">
+       <ul>
+         <li><a href="index.html" style="font-size: x-large; padding: 3px; border-left: solid;border-right: solid; ">Home</a></li>
+         <li><a style="font-size: x-large; padding: 3px;" href="feedback.html">Feedback</a></li>
+         <li><a style="font-size: x-large; padding: 3px;" href="aboutus.html">About Us</a></li>
+       </ul>
+       <div class="dropdown">
+           <li class="dropbtn">Shop 
+             <i class="fas fa-sort-down"></i>
+           </li>
+         <div class="dropdown-content">
+          <a id="a1" onclick="rendersShopsForAccessorie()" >Accessories & Jewelry</a>
+          <a id="a2" onclick="rendersShopsForBook()">Books and Novels</a>
+          <a id="a3" onclick="rendershopcak()">Cakes & Sweets</a>
+          <a id="a4"onclick="rendersCosmetic()" >Cosmetics & Makeup</a>
+          <a id="a5" onclick="rendersShopsForElectronics()">Electronis</a>
+          <a id="a6" onclick="rendersShopsForFlower()">Flowers</a>
+          <a id="a7" onclick="rendersShopsForFurnitur()">Furnitures</a>
+          <a id="a8" onclick="rendersShopsForKid()">Kids Shops</a>
+         </div>
+       </div>
+    </div>
+   </header>
+  <main>
+  <div id="SearchResult">
+
+  </div>
+  </main>
+  <footer>
+    <div id="foot-list">
+      <ul>
+        <li class="fab"><a href="https://www.facebook.com/"><img src="assests/logo/fb-icon.png" alt="facebook"></a></li>
+        <li class="fab"><a href="https://twitter.com/"><img src="assests/logo/twit-icon.png" alt="twitter"></a></li>
+        <li class="fab"><a href="https://www.instagram.com/"><img src="assests/logo/insta-icon.png" alt="instagram"></a></li>
+        <li class="fab"><a href="https://www.pinterest.com/"><img src="assests/logo/pint-icon.png" alt="pintrest"></a></li>
+      </ul>
+    </div>
+    <h4>Gift Shop &copy;</h4>
+    <h5>All Rights Reserved</h5>
+  </footer>
+  
+  <script src="js/appform.js"></script>
+</body>
+</html>
