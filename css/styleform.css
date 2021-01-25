@@ -66,6 +66,7 @@ fieldset
   position: fixed;
   margin-left: 20%;
   top: 30px;
+  z-index: 5;
 }
 tr:hover{
   background-color: rgba(255, 196, 0, 0.555);
@@ -93,7 +94,11 @@ tr td:last-child{
 }
 .hideform{
   visibility: hidden;
+  z-index: -3;
+  
 }
 .showform{
+  z-index: 5;
   visibility: visible;
+  
 }

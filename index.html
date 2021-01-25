@@ -25,14 +25,14 @@
             <i class="fas fa-sort-down"></i>
           </li>
         <div class="dropdown-content">
-            <a id="a1" href="shop.html">Accessories & Jewelry</a>
-            <a id="a2" href="shop.html">Books and Novels</a>
-            <a id="a3" href="shop.html">Cakes & Sweets</a>
-            <a id="a4" href="shop.html" >Cosmetics & Makeup</a>
-            <a id="a5" href="shop.html">Electronis</a>
-            <a id="a6" href="shop.html">Flowers</a>
-            <a id="a7" href="shop.html">Furnitures</a>
-            <a id="a8" href="shop.html">Kids Shops</a>
+            <a id="a1"  onclick="rendersShopsForAccessorie()" >Accessories & Jewelry</a>
+            <a id="a2" onclick="rendersShopsForBook()">Books and Novels</a>
+            <a id="a3" onclick="rendershopcak()">Cakes & Sweets</a>
+            <a id="a4"onclick="rendersCosmetic()" >Cosmetics & Makeup</a>
+            <a id="a5" onclick="rendersShopsForElectronic()">Electronis</a>
+            <a id="a6" onclick="rendersShopsForFlower()">Flowers</a>
+            <a id="a7" onclick="rendersShopsForFurnitur()">Furnitures</a>
+            <a id="a8" onclick="rendersShopsForKid()">Kids Shops</a>
         </div>
       </div>
    </div>
@@ -49,8 +49,8 @@
     <div class="top-left">Gifts are the most beautiful things that any one can recieve,<br>especially when you know what your recipient loves, likes and<br> interested in. So, give them a gift that will really speak to them.
     </div>
   </div>
-  <div id="body-form" style="z-index: 3;">
-    <div id ="divform" class="hideform">
+  <div id="body-form" class="hideform">
+    <div id ="divform" >
   <form>
     <fieldset> 
       <p id="para-form">Order</p>
@@ -212,6 +212,7 @@
   <script src="js/app.js"></script>
   <script src="js/slid.js"></script>
   <script src="js/appform.js"></script>
+  <script src="js/shop.js"></script>
   <!-- <script type="text/javascript" src="js/shop.js" charset="utf-8"></script> -->
   
 </body>
