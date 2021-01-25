@@ -95,3 +95,15 @@ button{
     font-family: 'Indie Flower', cursive;
     font-size: large;
 }
+i{
+  font-size: x-large;
+  display: block;
+  margin-left: 5%;
+}
+
+samp{
+  float: right;
+  font-size: small;
+  display: block;
+  margin-left: 5%;
+}
