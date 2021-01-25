@@ -206,9 +206,7 @@ function rendersShopsForAccessories(){
     shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Accessories & Jewelry';
 
-    var product = getData();
-
-    for(var i=0; i<product.length; i++){
+    for(var i=0; i<shopAccessorieArray.length; i++){
         shopDivider = document.createElement('div');
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
