@@ -9,10 +9,13 @@ var shopFlowersArray = [];
 var shopFurnituresArray = [];
 var shopKidsArray = [];
 
-var mainDiv= document.getElementById('main-img');
+var mainDiv= document.getElementById('main-img2');
 
 var listDiv= document.getElementsByClassName('dropdown-content');
 
+function clearmain(){
+    mainDiv.innerHTML="";
+}
 
 var link1= document.getElementById('a1');
 var link2= document.getElementById('a2');
@@ -139,11 +142,9 @@ new BooksShops ('The Good Book Shop', 'assests/shops/thegoodbookshop.png', 'http
 new CakesShops('Divan Cake', 'assests/shops/divan.jpg', 'https://www.facebook.com/DivanCake/');
 new CakesShops('Rawan Cake', 'assests/shops/rawancake.jpg', 'https://rawancake.jo/');
 new CakesShops('The Cake Shop', 'assests/shops/cakeshop.jpg', 'https://www.cakeshopco.com/');
-function rendershopcak(){
-    rendersShopsForCakes();
 
-}
-// 
+
+
 
 
 new CosmeticsShops('Abu Shakra','assests/shops/abushakra.png', 'https://www.abushakra.com/');
@@ -156,7 +157,7 @@ new CosmeticsShops('VaVaVoom','assests/shops/vavavoom.jpg', 'https://www.faceboo
 new CosmeticsShops('Victoria\'s Secrets','assests/shops/victoriasecret.jpg', 'https://www.victoriassecret.com/us/vs/beauty?active=beauty');
 new CosmeticsShops('Wojooh','assests/shops/wojooh.png', 'https://www.faces.com/ae-en');
 
-// rendersShopsForCosmetics();
+//rendersShopsForCosmetics();
 
 // create electronics objects
 
@@ -196,6 +197,7 @@ new KidsShops('Toys R Us', 'assests/shops/toysrus.jpg', 'https://www.toysrus.com
 
 // function
 function rendersShopsForAccessories(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -229,6 +231,7 @@ function rendersShopsForAccessories(){
 }
 
 function rendersShopsForBooks(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -259,6 +262,7 @@ function rendersShopsForBooks(){
 }
 
 function rendersShopsForCakes(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -289,6 +293,8 @@ function rendersShopsForCakes(){
 }
 
 function rendersShopsForCosmetics(){
+    clearmain();
+    
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -312,13 +318,14 @@ function rendersShopsForCosmetics(){
 
         shopTitle.textContent = shopCosmeticsArray[i].shopName;
         shopWeb.href = shopCosmeticsArray[i].shopLink;
-
+        
         shopDivider.setAttribute('class', 'card');
         shopInfo.setAttribute('class', 'container');
     }
 }
 
 function rendersShopsForElectronics(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -349,6 +356,7 @@ function rendersShopsForElectronics(){
 }
 
 function rendersShopsForFlowers(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -379,6 +387,7 @@ function rendersShopsForFlowers(){
 }
 
 function rendersShopsForFurniture(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -409,6 +418,7 @@ function rendersShopsForFurniture(){
 }
 
 function rendersShopsForKids(){
+    clearmain();
     var shopDivider;
     var shop = document.createElement('section');
     var shopSection = document.createElement('h2');
@@ -438,3 +448,85 @@ function rendersShopsForKids(){
     }
 }
 
+
+
+function rendershopcak(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForCakes",1);
+}
+if(localStorage.getItem("rendersShopsForCakes")){
+    rendersShopsForCakes();
+    localStorage.clear();
+}
+
+
+function rendersCosmetic(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForCosmetics",2);
+}
+if(localStorage.getItem("rendersShopsForCosmetics")){
+  
+    clearmain();
+    rendersShopsForCosmetics();
+    localStorage.clear();
+}
+
+function rendersShopsForAccessorie(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForAccessories",1);
+}
+if(localStorage.getItem("rendersShopsForAccessories")){
+    rendersShopsForAccessories();
+    localStorage.clear();
+}
+
+function rendersShopsForBook(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForBooks",1);
+}
+if(localStorage.getItem("rendersShopsForBooks")){
+    rendersShopsForBooks();
+    localStorage.clear();
+}
+
+function rendersShopsForFurnitur(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForFurniture",1);
+}
+if(localStorage.getItem("rendersShopsForFurniture")){
+    rendersShopsForFurniture();
+    localStorage.clear();
+}
+function rendersShopsForKid(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForKids",1);
+}
+if(localStorage.getItem("rendersShopsForKids")){
+    rendersShopsForKids();    
+    localStorage.clear();
+}
+
+function rendersShopsForFlower(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForFlowers",1);
+}
+if(localStorage.getItem("rendersShopsForFlowers")){
+    rendersShopsForFlowers()   
+    localStorage.clear();
+}
+function rendersShopsForElectronic(){
+    
+    window.location.replace("../gift-center/shop.html");
+    localStorage.setItem("rendersShopsForElectronics",1);
+}
+if(localStorage.getItem("rendersShopsForElectronics")){
+    rendersShopsForElectronics()  
+    localStorage.clear();
+}
