@@ -1,57 +1,134 @@
-// 'use strict';
+'use strict';
 
-// var imageArray=[];
+// console.log('test'); 
+var sweets;
+function christmas  ( giftBranch, giftSourse) {
+    this.gifBranch = giftBranch;
+    this.giftSourse = giftSourse;
+    christmas.prototype.allChristamsGifts.push(this);
+}
 
-// var divCards= document.getElementById('main-img');
-// var cardDiv = document.getElementsById('card');
-// var cardContainer = document.getElementsById('container');
+christmas.prototype.allChristamsGifts = [];
+new christmas('sweets','../assests/christmasproducts/img(1).jpeg');
+new christmas('sweets','../assests/christmasproducts/img(1).jpg');
+new christmas('others','../assests/christmasproducts/img(1).png');
+new christmas('others','../assests/christmasproducts/img(2).jpeg');
+new christmas('sweets','../assests/christmasproducts/img(2).jpg');
+new christmas('sweets','../assests/christmasproducts/img(3).jpg');
+new christmas('others','../assests/christmasproducts/img(4).jpg');
+new christmas('sweets','../assests/christmasproducts/img(5).jpg');
+new christmas('sweets','../assests/christmasproducts/img(6).jpg');
+new christmas('sweets','../assests/christmasproducts/img(7).jpg');
+new christmas('sweets','../assests/christmasproducts/img(8).jpg');
+new christmas('sweets','../assests/christmasproducts/img(9).jpg');
+new christmas('sweets','../assests/christmasproducts/img(10).jpg');
+new christmas('sweets','../assests/christmasproducts/img(11).jpg');
+new christmas('others','../assests/christmasproducts/img(12).jpg');
+new christmas('others','../assests/christmasproducts/img(13).jpg');
+new christmas('sweets','../assests/christmasproducts/img(14).jpg');
 
-// //divCards.appendChild(cardDiv);
+var submit = document.getElementById('sub-form'); 
 
-// function ImageCard(nameOfOccasion, sourceOfImage){
-//     this.nameOfOccasion= nameOfOccasion;
-//     this.sourceOfImage = sourceOfImage;
-//     this.clicked = 0;
+submit.addEventListener('click',result);
 
-//     imageArray.push(this);
-// }
-
-// var aniversaryCard = new ImageCard('Aniversary Gifts', 'assests/occassions/aniversary.jpeg');
-// var birthdayCard = new ImageCard('Birthday Gifts', 'assests/occassions/birthday.jpeg');
-// var christmasCard = new ImageCard('Christmas Gifts', 'assests/occassions/christmas.jpeg');
-// var congratulationsCard = new ImageCard('Congratulations Gifts', 'assests/occassions/congratulations.jpeg');
-// var eidCard = new ImageCard('Eid Gifts', 'assests/occassions/eid.jpeg');
-// var getwellCard = new ImageCard('Get Well Gifts', 'assests/occassions/getwell.jpeg');
-// var graduationCard = new ImageCard('Graduation Gifts', 'assests/occassions/graduation.jpeg');
-// var mothersdayCard = new ImageCard('Mothers Day Gifts', 'assests/occassions/mothersday.jpeg');
-// var newbornCard = new ImageCard('New Born Gifts', 'assests/occassions/newborn.jpeg');
-// var newhouseCard = new ImageCard('New House Gifts', 'assests/occassions/newhouse.jpeg');
-// var newyearCard = new ImageCard('New Year Gifts', 'assests/occassions/newyear.jpeg');
-// var ramadanCard = new ImageCard('Ramadan Gifts', 'assests/occassions/ramadan.jpeg');
-// var thankyouCard = new ImageCard('Thank You Gifts', 'assests/occassions/thankyou.jpeg');
-// var valentinesdayCard = new ImageCard('Valentine\'s Day Gifts', 'assests/occassions/valentinesday.jpeg');
-// var weddingCard = new ImageCard('Wedding Gifts', 'assests/occassions/wedding.jpeg');
-
-// renderCards();
-
-// function renderCards(){
-
-//     for(var i=0; i<imageArray.length; i++){
-//         // Card Div
-//         var cardImage = document.createElement('img');
-//         cardDiv.appendChild(cardImage);
-//         cardImage.src= imageArray[i].sourceOfImage;
-
-//         var cardTitle = document.createElement('h4');
-//         var cardLink = document.createElement('a');
-
-//         cardContainer.appendChild(cardTitle);
-//         cardContainer.appendChild(cardLink);
-
-//         cardTitle.textContent = imageArray[i].nameOfOccasion;
-//         cardLink.textContent = 'Order';
-
-//     }
+function result (event){
 
 
-// }
+    event.preventDefault();
+    
+    // console.log('test submit');
+
+console.log(event);
+ sweets = document.getElementById('sweets');
+ others = document.getElementById('others');
+ budjet = document.getElementById('')
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// new gift('eid', 'coffee', '../assests/eidproducts/img(1).jpeg');
+// new gift('eid', 'sweet', '../assests/eidproducts/img(1).jpg');
+// new gift('eid', 'sweet2', '../assests/eidproducts/img(1).png');
+// new gift('eid', 'chocolate', '../assests/eidproducts/img(2).jpg');
+// new gift('eid', 'sweet3', '../assests/eidproducts/img(2).png');
+// new gift('eid', 'sweet4', '../assests/eidproducts/img(3).jpg');
+// new gift('eid', 'sweet5', '../assests/eidproducts/img(4).jpg');
+// new gift('eid', 'sweet6', '../assests/eidproducts/img(5).jpg');
+// new gift('eid', 'sweet7', '../assests/eidproducts/img(1).jpg');
+// new gift('eid', 'coffee-contaner', '../assests/eidproducts/img(7).jpg');
+// new gift('eid', 'coffee-contaner2', '../assests/eidproducts/img(8).jpg');
+// new gift('eid', 'sweet8', '../assests/eidproducts/img(9).jpg');
+// new gift('eid', 'sweet9', '../assests/eidproducts/img(10).jpg');
+// new gift('eid', 'box', '../assests/eidproducts/img(11).jpg');
+// new gift('eid', 'box2', '../assests/eidproducts/img(12).jpg');
+// new gift('eid', 'sweet10', '../assests/eidproducts/img(13).jpg');
+// new gift('eid', 'sweet11', '../assests/eidproducts/img(14).jpg');
+// new gift('eid', 'sweet12', '../assests/eidproducts/img(15).jpg');
+// new gift('eid', 'coffee-contaner3', '../assests/eidproducts/img(16).jpg');
+
+// new gift('getwell', 'hotcoca', '../assests/GetWellImg/img1.jpg');
+// new gift('getwell', 'teddybear', '../assests/GetWellImg/img2.jpg');
+// new gift('getwell', 'entertatment', '../assests/GetWellImg/img3.jpg');
+// new gift('getwell', 'entertatment2', '../assests/GetWellImg/img4.jpg');
+// new gift('getwell', 'cookies', '../assests/GetWellImg/img5.jpg');
+// new gift('getwell', 'sweets', '../assests/GetWellImg/img6.jpg');
+// new gift('getwell', 'cookies2', '../assests/GetWellImg/img7.jpg');
+// new gift('getwell', 'chocolate', '../assests/GetWellImg/img8.jpg');
+// new gift('getwell', 'chocolate2', '../assests/GetWellImg/img10.jpg');
+// new gift('getwell', 'fullKit', '../assests/GetWellImg/img11.jpg');
+// new gift('getwell', 'frutes', '../assests/GetWellImg/img12.jpg');
+// new gift('getwell', 'toy', '../assests/GetWellImg/img13.jpg');
+// new gift('getwell', 'skincare', '../assests/GetWellImg/img14.jpg');
+// new gift('getwell', 'book', '../assests/GetWellImg/img15.jpg');
+// new gift('getwell', 'showerKit', '../assests/GetWellImg/img16.jpg');
+// new gift('getwell', 'fullKit2', '../assests/GetWellImg/img17.jpg');
+// new gift('getwell', 'skincare2', '../assests/GetWellImg/img18.jpg');
+// new gift('getwell', 'icecream', '../assests/GetWellImg/img19.jpg');
+// new gift('getwell', 'chocolate3', '../assests/GetWellImg/img20.jpg');
+// new gift('getwell', 'box', '../assests/GetWellImg/img21.jpg');
+
+
+
+
+console.log(christmas.prototype.allChristamsGifts);
+
+
+
+
+
+
+
+
+
+
+
+
