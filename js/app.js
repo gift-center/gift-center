@@ -4,6 +4,16 @@
 var sweets;
 var others;
 var budjet;
+
+var chrisOccasion = document.getElementById('chris');
+
+
+function checkListener(event){
+    if(event.target.id === 'chris'){
+        
+    }
+}
+
 function christmas  ( giftBranch, giftSourse) {
     this.gifBranch = giftBranch;
     this.giftSourse = giftSourse;
@@ -225,10 +235,10 @@ else if (sweets.checked===true && others.checked===false ){
 }
 
 
-function Birthday  ( giftBranch, giftSourse) {
+function Birthday  (giftBranch, giftSourse) {
     this.gifBranch = giftBranch;
     this.giftSourse = giftSourse;
-    Birthday.prototype.allEidGifts.push(this);
+    Birthday.prototype.allBirthdayGifts.push(this);
 }
 
 Birthday.prototype.allBirthdayGifts = [];
