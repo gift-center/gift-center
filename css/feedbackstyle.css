@@ -89,3 +89,9 @@ button{
 
 }
 
+#commit{
+  display: inline-block;
+    padding: 5px;
+    font-family: 'Indie Flower', cursive;
+    font-size: large;
+}

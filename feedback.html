@@ -29,19 +29,28 @@
         <div class="border-line"></div>
         <canvas id="myChart"></canvas>
     </section>
-
+    <form>
+      <label for="name" style="display: inline;" required>Name: </label>
+      <input type="text" id="name" name="name" placeholder="Your name" style="display: inline-block; width: 200px; margin-bottom: 20px;
+      height: 20px;" required ><br>
     <label for="comment"> User Comment:</label>
     <br>
-    <input type="text" id="comment" name="comment" placeholder="Leave a comment ...">
+    <input type="text" id="comment" name="comment" placeholder="Leave a comment ..."  required >
     <br>
     <button type="submit" id="submitBtn">Submit</button>
-
     <h4 id="feedback">Feedback</h4>
     <div id="comments-container">
-        
-        <li></li>
+      <ul>
+        <li>Farhan: WOOOOOOOOOOOOOOOOOOOOOOOW</li><br>
+        <Li>Ayyash: OMG</Li><br>
+        <li>Ahmed: that was fast</li><br>
+        <li>Farhan: best shop ever</li><br>
+      </ul>
+        <ul id="comfeld"></ul>
     </div>
-
+    
+  </form>
+  
   </main>
   <footer>
     <div id="foot-list">
@@ -56,7 +65,8 @@
     <h5>All Rights Reserved</h5>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="chart.js"></script>
+  <script src="js/chart.js"></script>
+  <script src="js/feedback.js"></script>
     
 </body>
 </html>
