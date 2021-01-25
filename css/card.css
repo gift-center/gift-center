@@ -68,6 +68,7 @@
   margin-left: 95px;
 }
 .container a:hover{
+  cursor: pointer;
   color: #41aea9;
   background-color: white;
 

@@ -11,6 +11,16 @@ var shopKidsArray = [];
 
 var mainDiv= document.getElementById('main-img');
 
+
+var link1= document.getElementById('a1');
+var link2= document.getElementById('a2');
+var link3= document.getElementById('a3');
+var link4= document.getElementById('a4');
+var link5= document.getElementById('a5');
+var link6= document.getElementById('a6');
+var link7= document.getElementById('a7');
+var link8= document.getElementById('a8');
+
 function AccessoriesShops(shopName, shopLogo, shopLink){
     this.shopName = shopName;
     this.shopLogo = shopLogo;
@@ -83,7 +93,7 @@ new AccessoriesShops('Swatch', 'assests/shops/swatch.png', 'https://shop.timecen
 new AccessoriesShops('Tiffany & Co.', 'assests/shops/tifannyandco.jpg', 'https://www.tiffany.com/');
 new AccessoriesShops('Time Center', 'assests/shops/timecenter.png', 'https://shop.timecenter.jo/?gclid=CjwKCAiAr6-ABhAfEiwADO4sfeLhUiFiO3jqCcQPHOHUCi1s2UmfAMHhsHyjfSDMlz0ru_JFlgXnvRoC9HoQAvD_BwE');
 
-rendersShopsForAccessories();
+// rendersShopsForAccessories();
 
 // craete books objects
 
@@ -91,7 +101,7 @@ new BooksShops ('Jordan Book Center', 'assests/shops/jordanbookcenter.jpg', 'htt
 new BooksShops ('Readers', 'assests/shops/readers.jpg', 'https://www.facebook.com/readersbookshop/');
 new BooksShops ('The Good Book Shop', 'assests/shops/thegoodbookshop.png', 'https://thegoodbookshop.com/');
 
-rendersShopsForBooks();
+// rendersShopsForBooks();
 
 // create cakes objects
 
@@ -99,7 +109,7 @@ new CakesShops('Divan Cake', 'assests/shops/divan.jpg', 'https://www.facebook.co
 new CakesShops('Rawan Cake', 'assests/shops/rawancake.jpg', 'https://rawancake.jo/');
 new CakesShops('The Cake Shop', 'assests/shops/cakeshop.jpg', 'https://www.cakeshopco.com/');
 
-rendersShopsForCakes();
+// rendersShopsForCakes();
 
 // create cosmetics objects
 
@@ -113,14 +123,14 @@ new CosmeticsShops('VaVaVoom','assests/shops/vavavoom.jpg', 'https://www.faceboo
 new CosmeticsShops('Victoria\'s Secrets','assests/shops/victoriasecret.jpg', 'https://www.victoriassecret.com/us/vs/beauty?active=beauty');
 new CosmeticsShops('Wojooh','assests/shops/wojooh.png', 'https://www.faces.com/ae-en');
 
-rendersShopsForCosmetics();
+// rendersShopsForCosmetics();
 
 // create electronics objects
 
 new ElectronicsShops('Leaders','assests/shops/leadears.jpg', 'https://www.leaders.jo/');
 new ElectronicsShops('Smart Buy','assests/shops/smartbuy.png', 'https://smartbuy-me.com/smartbuystore/');
 
-rendersShopsForElectronics();
+// rendersShopsForElectronics();
 
 // create flowers objects
 
@@ -132,7 +142,7 @@ new FlowersShops('Leila Shop','assests/shops/leilashop.jpg', 'https://www.facebo
 new FlowersShops('Orchid Flowers','assests/shops/orchidflowers.jpg', 'https://www.orchids.com.jo/');
 new FlowersShops('The Flower Shop','assests/shops/theflowershop.jpg', 'https://www.theflowershopsa.com/');
 
-rendersShopsForFlowers();
+// rendersShopsForFlowers();
 
 // create furniture objects 
 
@@ -142,14 +152,14 @@ new FurnitureShops('Midas', 'assests/shops/midas.jpg', 'https://midasfurniture.c
 new FurnitureShops('Shahwan', 'assests/shops/shahwan.jpg', 'https://www.shahwan.net/');
 new FurnitureShops('Txon', 'assests/shops/txon.jpg', 'https://www.txonstores.com/');
 
-rendersShopsForFurniture();
+// rendersShopsForFurniture();
 
 // create kids objects
 
 new KidsShops('Kenzi', 'assests/shops/kenzi.jpg', 'https://kenzionline.com/');
 new KidsShops('Toys R Us', 'assests/shops/toysrus.jpg', 'https://www.toysrus.com/');
 
-rendersShopsForKids();
+// rendersShopsForKids();
 
 // function
 function rendersShopsForAccessories(){
@@ -391,3 +401,10 @@ function rendersShopsForKids(){
         shopInfo.setAttribute('class', 'container');
     }
 }
+
+
+// function checking(){
+    
+//     if ()
+
+// }
