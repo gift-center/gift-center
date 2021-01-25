@@ -35,7 +35,7 @@
   padding: 2px 16px;
 }
 .container h4, h3{
-  color: #DB7093;
+  color: #09555A;
   font-family: 'Caveat', cursive;
   font-stretch: condensed;
   font-size: x-large;
@@ -59,8 +59,8 @@
   font-size: x-large;
   font-family:'Caveat', cursive;
   border: solid;
-  background-color:   #DB7093;
-  color: white;
+  /* background-color:   #DB7093; */
+  color:#09555A;
   width: 100px;
   border-radius: 15px;
   font-size: xx-large;
@@ -69,7 +69,7 @@
 }
 .container a:hover{
   cursor: pointer;
-  color: #41aea9;
+  color: #09555A;
   background-color: white;
 
 }

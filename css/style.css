@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 #logo{
  font-family: 'Hachi Maru Pop', cursive;
@@ -24,9 +25,10 @@ main{
   padding-bottom: 2%;
   background-position: bottom;
   background-size: 100% 2239px;
-  background-image: url(../assests/mainbackground.jpg);
+  /* background-image: url(../assests/mainbackground.jpg);
   background-repeat: no-repeat;
-  
+   */
+   background-color: #d3d3d3;
   
 }
 
@@ -109,12 +111,14 @@ header a:hover{
 .top-left {
   position: absolute;
   top: 150px;
-  left: 320px;
-  color: white;
-  text-shadow: 0 0 3px #ffcccc, 0 0 5px  rgba(95, 36, 36, 0.815);
+  left: 215px;
+  color:#09555A;
+  /* text-shadow: 0 0 3px #017e71, 0 0 5px #000000; */
   line-height: 55px;
   font-size: xx-large;
-  font-family:'Caveat', cursive;
+  font-style:italic;
+  font-family: 'Yusei Magic', sans-serif;
+  font-weight: bolder;
   z-index: 1;
 }
 
@@ -199,6 +203,7 @@ footer h4{
     margin-right: 35px;
     float: right;
 }
+
 
 /* Dropdown button */
 .dropdown .dropbtn {
