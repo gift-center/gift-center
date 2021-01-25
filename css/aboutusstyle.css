@@ -105,7 +105,7 @@ a{
   transition: 1s color;  
 
 }
- header{
+ /* header{
   min-width: 100%;
   background-color : #F8EDF3 ;
   height: 130px;}
@@ -120,7 +120,7 @@ a{
   margin-top: 3.5%; 
   color: #41aea9;
   float: right;
-}
+} */
 
 main{
   background-color: rgb(117, 73, 94);
@@ -135,7 +135,7 @@ main{
   height: 200px;
 }
 
-header{
+/* header{
   min-width: 100%;
   background-color : #F8EDF3 ;
   height: 130px;}
@@ -241,8 +241,8 @@ footer h3 a{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
-.clear{
+} */
+/* .clear{
   clear: both;
 }
 footer a:hover{
@@ -256,7 +256,7 @@ footer h4{
   margin-left: auto;
   margin-right: auto;
   text-align: center;
-}
+} */
 
 *{
   box-sizing: inherit;
