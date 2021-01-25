@@ -11,6 +11,8 @@ var shopKidsArray = [];
 
 var mainDiv= document.getElementById('main-img');
 
+var listDiv= document.getElementsByClassName('dropdown-content');
+
 
 var link1= document.getElementById('a1');
 var link2= document.getElementById('a2');
@@ -20,6 +22,35 @@ var link5= document.getElementById('a5');
 var link6= document.getElementById('a6');
 var link7= document.getElementById('a7');
 var link8= document.getElementById('a8');
+
+
+
+
+// console.log(link1);
+link1.addEventListener('click', accessorie);
+
+ function accessorie(event){
+//event.preventDeafult();
+    console.log('test');
+    saveData(shopAccessorieArray);
+    rendersShopsForAccessories();
+}
+
+function saveData(arr){
+    var product = JSON.stringify(arr);
+    localStorage.setItem('filteredProduct', product);
+}
+
+function getData(){
+    var list = localStorage.getItem('filteredProduct');
+    var listJS = JSON.parse(list);
+    
+    //renderImages();
+    console.log(listJS);
+    return listJs;
+}
+
+
 
 function AccessoriesShops(shopName, shopLogo, shopLink){
     this.shopName = shopName;
@@ -108,10 +139,12 @@ new BooksShops ('The Good Book Shop', 'assests/shops/thegoodbookshop.png', 'http
 new CakesShops('Divan Cake', 'assests/shops/divan.jpg', 'https://www.facebook.com/DivanCake/');
 new CakesShops('Rawan Cake', 'assests/shops/rawancake.jpg', 'https://rawancake.jo/');
 new CakesShops('The Cake Shop', 'assests/shops/cakeshop.jpg', 'https://www.cakeshopco.com/');
+function rendershopcak(){
+    rendersShopsForCakes();
 
-// rendersShopsForCakes();
+}
+// 
 
-// create cosmetics objects
 
 new CosmeticsShops('Abu Shakra','assests/shops/abushakra.png', 'https://www.abushakra.com/');
 new CosmeticsShops('Bath & Body Works','assests/shops/bathandbodyworks.png', 'https://www.bathandbodyworks.com/');
@@ -170,7 +203,10 @@ function rendersShopsForAccessories(){
     shop.appendChild(shopSection);
     shop.setAttribute('class', 'categorySection');
     shopSection.textContent = 'Accessories & Jewelry';
-    for(var i=0; i<shopAccessorieArray.length; i++){
+
+    var product = getData();
+
+    for(var i=0; i<product.length; i++){
         shopDivider = document.createElement('div');
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
@@ -402,9 +438,3 @@ function rendersShopsForKids(){
     }
 }
 
-
-// function checking(){
-    
-//     if ()
-
-// }

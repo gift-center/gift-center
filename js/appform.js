@@ -14,6 +14,6 @@ createform.addEventListener("click", createforms);
 
 function createforms(){
   var formcol =document.getElementById("divform");
-  formcol.removeAttribute("class")
+  formcol.removeAttribute("class");
 
 }

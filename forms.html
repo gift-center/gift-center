@@ -1,94 +1,73 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="assests/logo/logo.png">
-  <title>Gift Center</title>
-  <link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/card.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<style>
+.dropdown-submenu {
+  position: relative;
+}
 
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+</style>
 </head>
 <body>
-  <header>
-      <img style="height: 130px;" src="assests/logo/logo.png" alt="">
-   <div id="list-header">
-      <ul>
-        <li ><a href="index.html" style="font-size: x-large; padding: 3px;">Home</a></li>
-        <!-- <li><a style="font-size: x-large; padding: 3px; " href="calender.html">Calender</a></li> -->
-        <li><a style="font-size: x-large; padding: 3px; " href="shop.html">Shop</a></li>
-        <li><a style="font-size: x-large; padding: 3px; " href="feedback.html">Feedback</a></li>
-        <li><a style="font-size: x-large; padding: 3px; " href="aboutus.html">About Us</a></li>
-      </ul>
-   </div>
-  </header>
+   
+<div class="container">                                        
+  <div class="dropdown">
+    <li class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown">Shop
+    <span class="caret"></span></li>
+    <ul class="dropdown-menu">
+      <li class="dropdown-submenu">
+        <a class="test" tabindex="-1" href="#">Accessories & Jewelry <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="https://pandora-eshop.jo/">Pandora</a></li>
+          <li><a tabindex="-1" href="https://www.jomashop.com/swarovski-jewelry.html?gclid=CjwKCAiAr6-ABhAfEiwADO4sfU1RUacrJHdr8JjbGZNbptg_TL799R_AxnDgqa2WgU2DENk7Gac4_BoCk5MQAvD_BwE">Swarovski</a></li>
+          <li><a tabindex="-1" href="https://shop.timecenter.jo/collections/swatch?utm_campaign=searchads&utm_medium=searchads&gclid=CjwKCAiAr6-ABhAfEiwADO4sfVnYiiJjEv3UdlmwJrDyksfSd9sLJwnHiEDTKFLzk5QIEuyOP3HnsRoCyAoQAvD_BwE'">Swatch</a></li>
+          <li><a tabindex="-1" href="https://www.tiffany.com/">Tiffany & Co.</a></li>
+          <li><a tabindex="-1" href="https://shop.timecenter.jo/?gclid=CjwKCAiAr6-ABhAfEiwADO4sfeLhUiFiO3jqCcQPHOHUCi1s2UmfAMHhsHyjfSDMlz0ru_JFlgXnvRoC9HoQAvD_BwE">Time Center</a></li>
+        </ul>
 
-  <main>
+        <a class="test" tabindex="-1" href="#">Books and Novels <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="https://vymaps.com/JO/Jordan-Book-Center-JBC-380113/">Jordan Book Center</a></li>
+          <li><a tabindex="-1" href="https://www.facebook.com/readersbookshop/">Readers</a></li>
+          <li><a tabindex="-1" href="https://thegoodbookshop.com/">The Good Book Shop</a></li>
+        </ul>
 
-    <div id="form-div">
-        <label for="myList">Gender</label>
-        <select id = "myList" name="myList">
-            <option value = "1">Male</option>
-            <option value = "2">Female</option>
-        </select>
+        <a class="test" tabindex="-1" href="#">Cakes & Sweets<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="https://www.facebook.com/DivanCake/">Divan Cake</a></li>
+          <li><a tabindex="-1" href="https://rawancake.jo/">Rawan Cakw</a></li>
+          <li><a tabindex="-1" href="https://www.cakeshopco.com/">The Cake Shop</a></li>
+        </ul>
 
-        <label for="age">Age</label>
-        <input type="number" id="age" name="age">
+        <a class="test" tabindex="-1" href="#">Cosmetics & Makeup<span class="caret"></span></a>
+        <ul class="dropdown-menu">
+          <li><a tabindex="-1" href="https://www.abushakra.com/">Abu Shakra</a></li>
+          <li><a tabindex="-1" href="https://www.bathandbodyworks.com/">Bath and Body Works</a></li>
+          <li><a tabindex="-1" href="https://www.cashmerecosmetics.com/">Cashemere</a></li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
 
-        <label for="">Budget</label>
-        <input type="number">
+<script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+</script>
 
-        <label for="">Interest</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Flowers</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Chocolate</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Watches</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Cake</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Jewerly</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Accessories</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Chocolate</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Perfumes</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Make Up</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Toys</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Chocolate</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Skin Care</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Electronics</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Furniture</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Home Decoration</label>
-        <input type="checkbox" name="" id="">
-        <label for="">Books</label>
-
-        
-        <button>Search</button>
-    </div>
-  </main>
-
-  <footer>
-    <div id="foot-list">
-      <ul>
-        <li class="fab"><a href="https://www.facebook.com/"><img src="assests/logo/fb-icon.png" alt="facebook"></a></li>
-        <li class="fab"><a href="https://twitter.com/"><img src="assests/logo/twit-icon.png" alt="twitter"></a></li>
-        <li class="fab"><a href="https://www.instagram.com/"><img src="assests/logo/insta-icon.png" alt="instagram"></a></li>
-        <li class="fab"><a href="https://www.pinterest.com/"><img src="assests/logo/pint-icon.png" alt="pintrest"></a></li>
-      </ul>
-    </div>
-    <h4>Gift Shop &copy;</h4>
-    <h5>All Rights Reserved</h5>
-  </footer>
 </body>
 </html>
