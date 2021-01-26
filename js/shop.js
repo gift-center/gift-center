@@ -52,7 +52,6 @@ var link8= document.getElementById('a8');
 
 
 
-
 // console.log(link1);
 link1.addEventListener('click', accessorie);
 
@@ -241,6 +240,7 @@ function rendersShopsForAccessories(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -278,6 +278,7 @@ function rendersShopsForBooks(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -315,6 +316,7 @@ function rendersShopsForCakes(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -354,6 +356,7 @@ function rendersShopsForCosmetics(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -392,6 +395,7 @@ function rendersShopsForElectronics(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -429,6 +433,7 @@ function rendersShopsForFlowers(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -466,6 +471,7 @@ function rendersShopsForFurniture(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);
@@ -504,6 +510,7 @@ function rendersShopsForKids(){
         var shopInfo = document.createElement('div');
         var shopTitle = document.createElement('h3');
         var shopWeb = document.createElement('a');
+        shopWeb.setAttribute('target', '_blank');
         var shopPic = document.createElement('img');
 
         mainDiv.appendChild(shopDivider);

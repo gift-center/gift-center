@@ -17,14 +17,16 @@
   display: inline-block;
   width: 375px;
   margin-left: 60px;
-  margin-bottom: 25px
+  margin-bottom: 25px;
+  /* margin-top: 112px; */
+
 }
 
 .categorySection{
-    margin-top: 35px;
+    margin-top: 85px;
     margin-left: 50px;
     font-size: xx-large;
-    margin-bottom: 20px;
+    margin-bottom: 75px;
     font-family: 'Indie Flower', cursive;
     color:#09555A;
     font-weight: bolder;

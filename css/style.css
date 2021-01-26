@@ -21,6 +21,8 @@
 h1{
   color: brown;
 }
+
+
 main{
   padding-bottom: 2%;
   background-position: bottom;
@@ -152,7 +154,7 @@ header a:hover{
   font-style:italic;
   font-family: 'Yusei Magic', sans-serif;
   font-weight: bolder;
-  z-index: 14;
+  z-index: 4;
 }
 
 .module {
