@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
+#SearchResult img {
+    height: 200px;
+    width: 200px;
+    margin-left: 33px;
+    margin-top: 45px;
+}
+
+#SearchResult img:hover{
+      
+
+}
+
+#SearchResult {
+    margin-left: 30px;
+}
+
+h1{
+    font-size: xx-large;
+    color: #09555A;
+    font-family: 'Yusei Magic', sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 30%;
+    padding-top: 20px;
+}

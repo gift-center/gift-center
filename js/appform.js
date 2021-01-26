@@ -32,6 +32,7 @@ var eform = document.getElementById("p-form");
 function closep(){
   var formcol =document.getElementById("divform");
   formcol.setAttribute("class","hideform");
+  window.location.replace("../index.html");
 
 }
 var createform = document.getElementsByClassName("orderform");

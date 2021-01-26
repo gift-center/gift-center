@@ -48,6 +48,10 @@ h2{
   /* width: 80%; */
 }
 
+.card{
+  margin-top: 112px;
+}
+
 
 .container a{
   display: block;
