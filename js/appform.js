@@ -10,6 +10,8 @@ var makeup;
 var clothes;
 var rose;
 var carriage;
+var ramadanVibes;
+var perfume ; 
 var christ =['sweets','others'];
 var eid = ['sweets' , 'others'];
 var gitwell = ['sweets','others','toy','skincare','fruit'];
@@ -19,7 +21,10 @@ var motherday = ['accessories','boxes','others','rose','clothes'];
 var newborn = ['carriage','boxes','clothes'];
 var graduation = ['others','boxes','sweets'];
 var newhome =['others'];
-var newyear = ['sweets', 'others','boxes','rose']; 
+var newyear = ['sweets', 'others','boxes','rose'];
+var ramadan = ['ramadanVibes','others']; 
+var valentine = ['rose','boxes','sweets']; 
+var wedding = ['others','boxes','perfume'];
 var eform = document.getElementById("p-form");
   eform.addEventListener("click", closep);
 
@@ -638,24 +643,24 @@ function NewYear (giftBranch,giftSourse){
 
 NewYear.prototype.allNewYearGifts = []; 
 
-new NewYear ('sweets','../assets/NewYearIMG/img1.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img2.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img3.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img4.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img5.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img6.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img7.jpg');
-new NewYear ('others','../assets/NewYearIMG/img8.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img9.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img10.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img11.jpg');
-new NewYear ('rose','../assets/NewYearIMG/img12.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img13.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img14.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img15.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img16.jpg');
-new NewYear ('sweets','../assets/NewYearIMG/img17.jpg');
-new NewYear ('boxes','../assets/NewYearIMG/img18.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img1.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img2.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img3.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img4.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img5.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img6.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img7.jpg');
+new NewYear ('others','../assests/NewYearIMG/img8.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img9.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img10.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img11.jpg');
+new NewYear ('rose','../assests/NewYearIMG/img12.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img13.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img14.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img15.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img16.jpg');
+new NewYear ('sweets','../assests/NewYearIMG/img17.jpg');
+new NewYear ('boxes','../assests/NewYearIMG/img18.jpg');
 
 function result8 (){
 
@@ -688,6 +693,193 @@ function result8 (){
   }
   }
   localStorage.setItem("Gifts",JSON.stringify(newyearproducts));
+  window.location.replace("../result.html");
+  console.log('test')
+  
+  }
+
+  
+function Ramadan (giftBranch,giftSourse){
+  this.giftBranch = giftBranch; 
+  this.giftSourse = giftSourse;
+  Ramadan.prototype.allRamadanGifts.push(this); 
+}
+
+Ramadan.prototype.allRamadanGifts = []; 
+
+new Ramadan ('others','../assests/RamadanImage/img-1.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-2.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-3.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-4.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-5.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-6.jpg');
+new Ramadan ('ramadanVibes','../assests/RamadanImage/img-7.jpg');
+new Ramadan ('ramadanVibes','../assests/RamadanImage/img-8.jpg');
+new Ramadan ('ramadanVibes','../assests/RamadanImage/img-9.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-10.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-11.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-12.png');
+new Ramadan ('others','../assests/RamadanImage/img-13.jpg');
+new Ramadan ('ramadanVibes','../assests/RamadanImage/img-14.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-15.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-16.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-17.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-18.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-19.jpg');
+new Ramadan ('others','../assests/RamadanImage/img-20.jpg');
+
+
+
+function result9 (){
+
+
+  
+
+  others = document.getElementById('others');
+  ramadanVibes= document.getElementById('ramadanVibes');
+  
+  var ramadanproducts =[];
+  for (var i=0 ; i<Ramadan.prototype.allRamadanGifts.length;i++){
+  if (ramadanVibes.checked && Ramadan.prototype.allRamadanGifts[i].giftBranch== 'ramadanVibes'){
+    
+    
+    ramadanproducts.push(Ramadan.prototype.allRamadanGifts[i].giftSourse);
+  
+  }
+  else if (others.checked && Ramadan.prototype.allRamadanGifts[i].giftBranch == 'others'){
+    
+    
+    ramadanproducts.push(Ramadan.prototype.allRamadanGifts[i].giftSourse); 
+  }
+  }
+  localStorage.setItem("Gifts",JSON.stringify(ramadanproducts));
+  window.location.replace("../result.html");
+  console.log('test')
+  
+  }
+
+  
+function Valentine (giftBranch,giftSourse){
+  this.giftBranch = giftBranch; 
+  this.giftSourse = giftSourse;
+  Valentine.prototype.allValentineGifts.push(this); 
+}
+
+Valentine.prototype.allValentineGifts = []; 
+
+new Valentine ('boxes','../assests/valentineIMG/img 1.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 2.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 3.jpg');
+new Valentine ('others','../assests/valentineIMG/img 4.jpg');
+new Valentine ('others','../assests/valentineIMG/img 5.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 6.jpg');
+new Valentine ('rose','../assests/valentineIMG/img 7.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 8.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 9.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 10.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 11.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 12.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 13.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 14.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 15.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 16.jpg');
+new Valentine ('sweets','../assests/valentineIMG/img 17.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 18.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 19.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 20.jpg');
+new Valentine ('boxes','../assests/valentineIMG/img 21.jpg');
+
+
+function result10 (){
+
+
+  
+
+  rose= document.getElementById('rose');
+  boxes= document.getElementById('boxes');
+  sweets= document.getElementById('sweets');
+  
+  var valentineproducts =[];
+  for (var i=0 ; i<Valentine.prototype.allValentineGifts.length;i++){
+  if (rose.checked && Valentine.prototype.allValentineGifts[i].giftBranch== 'rose'){
+    
+    
+    valentineproducts.push(Valentine.prototype.allValentineGifts[i].giftSourse);
+  
+  }
+  else if (boxes.checked && Valentine.prototype.allValentineGifts[i].giftBranch == 'boxes'){
+    
+    
+    valentineproducts.push(Valentine.prototype.allValentineGifts[i].giftSourse); 
+  }else if (sweets.checked && Valentine.prototype.allValentineGifts[i].giftBranch == 'sweets'){
+    
+    
+    valentineproducts.push(Valentine.prototype.allValentineGifts[i].giftSourse); 
+  }
+  }
+  localStorage.setItem("Gifts",JSON.stringify(valentineproducts));
+  window.location.replace("../result.html");
+  console.log('test')
+  
+  }
+
+  
+function Wedding (giftBranch,giftSourse){
+  this.giftBranch = giftBranch; 
+  this.giftSourse = giftSourse;
+  Wedding.prototype.allWeddingGifts.push(this); 
+}
+
+Wedding.prototype.allWeddingGifts = []; 
+
+new Wedding ('boxes','../assests/weddingIMG/img 1.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 2.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 3.jpg');
+new Wedding ('others','../assests/weddingIMG/img 4.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 5.jpg');
+new Wedding ('others','../assests/weddingIMG/img 6.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 7.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 8.png');
+new Wedding ('others','../assests/weddingIMG/img 9.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 10.jpg');
+new Wedding ('others','../assests/weddingIMG/img 11.jpg');
+new Wedding ('perfume','../assests/weddingIMG/img 12.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 13.jpg');
+new Wedding ('others','../assests/weddingIMG/img 14.jpg');
+new Wedding ('others','../assests/weddingIMG/img 15.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 16.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 17.jpg');
+new Wedding ('boxes','../assests/weddingIMG/img 18.jpeg');
+
+
+function result11 (){
+
+
+  
+
+  others= document.getElementById('others');
+  boxes= document.getElementById('boxes');
+  perfume= document.getElementById('perfume');
+  
+  var weddingproducts =[];
+  for (var i=0 ; i<Wedding.prototype.allWeddingGifts.length;i++){
+  if (others.checked && Wedding.prototype.allWeddingGifts[i].giftBranch== 'others'){
+    
+    
+    weddingproducts.push(Wedding.prototype.allWeddingGifts[i].giftSourse);
+  
+  }
+  else if (boxes.checked && Wedding.prototype.allWeddingGifts[i].giftBranch == 'boxes'){
+    
+    
+    weddingproducts.push(Wedding.prototype.allWeddingGifts[i].giftSourse); 
+  }else if (perfume.checked && Wedding.prototype.allWeddingGifts[i].giftBranch == 'perfume'){
+    
+    
+    weddingproducts.push(Wedding.prototype.allWeddingGifts[i].giftSourse); 
+  }
+  }
+  localStorage.setItem("Gifts",JSON.stringify(weddingproducts));
   window.location.replace("../result.html");
   console.log('test')
   
