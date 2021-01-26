@@ -4,7 +4,7 @@ var others;
 var toy; 
 var skincare;
 var fruit;
-var accessories; 
+var accessory; 
 var boxes; 
 var makeup;
 var clothes;
@@ -14,17 +14,17 @@ var ramadanVibes;
 var perfume ; 
 var christ =['sweets','others'];
 var eid = ['sweets' , 'others'];
-var gitwell = ['sweets','others','toy','skincare','fruit'];
-var birthday = ['accessories','boxes','makeup','sweets','others'];
-var birthday = ['accessories','boxes','makeup','sweets','others'];
-var motherday = ['accessories','boxes','others','rose','clothes'];
+var gitwell = ['sweets','fruit','toy','skincare','others'];
+var birthday = ['accessory','boxes','makeup','sweets','others'];
+var birthday = ['accessory','boxes','makeup','sweets','others'];
+var motherday = ['accessory','boxes','clothes','rose','others'];
 var newborn = ['carriage','boxes','clothes'];
-var graduation = ['others','boxes','sweets'];
+var graduation = ['sweets','boxes','others'];
 var newhome =['others'];
-var newyear = ['sweets', 'others','boxes','rose'];
-var ramadan = ['ramadanVibes','others']; 
+var newyear = ['sweets','rose' ,'boxes','others'];
+var ramadan = ['Vibes','others']; 
 var valentine = ['rose','boxes','sweets']; 
-var wedding = ['others','boxes','perfume'];
+var wedding = ['perfume','boxes','others'];
 var eform = document.getElementById("p-form");
   eform.addEventListener("click", closep);
 
@@ -300,21 +300,21 @@ Birthday.prototype.allBirthdayGifts = [];
 
    
 
-new Birthday ('accessories',' ../assests/birthdayproducts/img(1).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(1).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(1).png');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(2).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(2).png');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(3).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(2).png');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(3).jpg');
 new Birthday ('makeup',' ../assests/birthdayproducts/img(3).png');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(4).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(5).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(6).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(7).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(7).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(8).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(9).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(10).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(11).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(12).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(10).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(11).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(12).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(13).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(14).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(15).jpg');
@@ -322,10 +322,10 @@ new Birthday ('boxes',' ../assests/birthdayproducts/img(16).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(17).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(18).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(19).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(20).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(21).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(20).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(21).jpg');
 new Birthday ('others',' ../assests/birthdayproducts/img(22).jpg');
-new Birthday ('accessories',' ../assests/birthdayproducts/img(23).jpg');
+new Birthday ('accessory',' ../assests/birthdayproducts/img(23).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(24).jpg');
 new Birthday ('sweets',' ../assests/birthdayproducts/img(25).jpg');
 new Birthday ('boxes',' ../assests/birthdayproducts/img(26).jpg');
@@ -344,7 +344,7 @@ function result3 (){
 sweets = document.getElementById('sweets');
 others = document.getElementById('others');
 
-accessories = document.getElementById('accessories');
+accessory = document.getElementById('accessory');
 boxes = document.getElementById('boxes');
 makeup = document.getElementById('makeup');
 
@@ -374,7 +374,7 @@ if (others.checked && Birthday.prototype.allBirthdayGifts[i].gifBranch== 'others
   
   
   birthdayproducts.push(Birthday.prototype.allBirthdayGifts[i].giftSourse); 
-}else if (accessories.checked && Birthday.prototype.allBirthdayGifts[i].gifBranch == 'accessories'){
+}else if (accessory.checked && Birthday.prototype.allBirthdayGifts[i].gifBranch == 'accessory'){
   
   
   birthdayproducts.push(Birthday.prototype.allBirthdayGifts[i].giftSourse); 
@@ -403,7 +403,7 @@ new MotherDay ('others','../assests/MothersDayImg/img4.jpg');
 new MotherDay ('others','../assests/MothersDayImg/img5.jpg');
 new MotherDay ('boxes','../assests/MothersDayImg/img6.jpg');
 new MotherDay ('others','../assests/MothersDayImg/img8.jpg');
-new MotherDay ('accessories','../assests/MothersDayImg/img9.jpg');
+new MotherDay ('accessory','../assests/MothersDayImg/img9.jpg');
 new MotherDay ('boxes','../assests/MothersDayImg/img10.jpg');
 new MotherDay ('clothes','../assests/MothersDayImg/img11.jpg');
 new MotherDay ('others','../assests/MothersDayImg/img12.jpg');
@@ -422,7 +422,7 @@ function result4 (){
   clothes = document.getElementById('clothes');
   others = document.getElementById('others');
   
-  accessories = document.getElementById('accessories');
+  accessory = document.getElementById('accessory');
   boxes = document.getElementById('boxes');
   rose = document.getElementById('rose');
   
@@ -447,7 +447,7 @@ function result4 (){
     
     
     motherdayproducts.push(MotherDay.prototype.allMotherDayGifts[i].giftSourse); 
-  }else if (accessories.checked && MotherDay.prototype.allMotherDayGifts[i].giftBranch == 'accessories'){
+  }else if (accessory.checked && MotherDay.prototype.allMotherDayGifts[i].giftBranch == 'accessory'){
     
     
     motherdayproducts.push(MotherDay.prototype.allMotherDayGifts[i].giftSourse); 
@@ -474,7 +474,7 @@ new NewPorn ('boxes','../assests/NewBornImg/img3.jpg');
 new NewPorn ('boxes','../assests/NewBornImg/img4.jpg');
 new NewPorn ('boxes','../assests/NewBornImg/img5.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img6.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img7.jpg');
+new NewPorn ('clothes','../assests/NewBornImg/img7.png');
 new NewPorn ('boxes','../assests/NewBornImg/img8.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img9.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img10.jpg');
@@ -482,7 +482,6 @@ new NewPorn ('clothes','../assests/NewBornImg/img11.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img12.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img13.webp');
 new NewPorn ('clothes','../assests/NewBornImg/img14.jpg');
-new NewPorn ('boxes','../assests/NewBornImg/img2.jpeg');
 new NewPorn ('clothes','../assests/NewBornImg/img16.jpg');
 new NewPorn ('clothes','../assests/NewBornImg/img17.jpg');
 
@@ -527,7 +526,7 @@ function Graduation (giftBranch,giftSourse){
 
 Graduation.prototype.allGraduationGifts = []; 
 
-new Graduation ('others','../assests/graduationsproducts/img-1.jpg');
+new Graduation ('others','../assests/graduationsproducts/img-1.jpeg');
 new Graduation ('others','../assests/graduationsproducts/img-2.jpg');
 new Graduation ('others','../assests/graduationsproducts/img-3.png');
 new Graduation ('others','../assests/graduationsproducts/img-4.jpg');
@@ -606,7 +605,7 @@ new NewHome ('others','../assests/homeImage/img13.jpg');
 new NewHome ('others','../assests/homeImage/img14.jpg');
 new NewHome ('others','../assests/homeImage/img15.jpg');
 new NewHome ('others','../assests/homeImage/img16.jpg');
-new NewHome ('others','../assests/homeImage/img17.jpg');
+new NewHome ('others','../assests/homeImage/img17.png');
 
 
 
@@ -713,14 +712,14 @@ new Ramadan ('others','../assests/RamadanImage/img-3.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-4.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-5.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-6.jpg');
-new Ramadan ('ramadanVibes','../assests/RamadanImage/img-7.jpg');
-new Ramadan ('ramadanVibes','../assests/RamadanImage/img-8.jpg');
-new Ramadan ('ramadanVibes','../assests/RamadanImage/img-9.jpg');
+new Ramadan ('Vibes','../assests/RamadanImage/img-7.jpg');
+new Ramadan ('Vibes','../assests/RamadanImage/img-8.jpg');
+new Ramadan ('Vibes','../assests/RamadanImage/img-9.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-10.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-11.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-12.png');
 new Ramadan ('others','../assests/RamadanImage/img-13.jpg');
-new Ramadan ('ramadanVibes','../assests/RamadanImage/img-14.jpg');
+new Ramadan ('Vibes','../assests/RamadanImage/img-14.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-15.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-16.jpg');
 new Ramadan ('others','../assests/RamadanImage/img-17.jpg');
@@ -736,11 +735,11 @@ function result9 (){
   
 
   others = document.getElementById('others');
-  ramadanVibes= document.getElementById('ramadanVibes');
+  ramadanVibes= document.getElementById('Vibes');
   
   var ramadanproducts =[];
   for (var i=0 ; i<Ramadan.prototype.allRamadanGifts.length;i++){
-  if (ramadanVibes.checked && Ramadan.prototype.allRamadanGifts[i].giftBranch== 'ramadanVibes'){
+  if (ramadanVibes.checked && Ramadan.prototype.allRamadanGifts[i].giftBranch== 'Vibes'){
     
     
     ramadanproducts.push(Ramadan.prototype.allRamadanGifts[i].giftSourse);
