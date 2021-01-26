@@ -1,12 +1,12 @@
 
 var try1 = document.getElementById("SearchResult");
 
-if(localStorage.getItem("ChristamsGifts")){
+if(localStorage.getItem("Gifts")){
   
  
   var giftSourse = document.getElementById('SearchResult');
   
-  var forget = localStorage.getItem('ChristamsGifts');
+  var forget = localStorage.getItem('Gifts');
   var yy = JSON.parse(forget);
 
   console.log(yy);
@@ -18,55 +18,55 @@ if(localStorage.getItem("ChristamsGifts")){
   localStorage.clear();
 }
 
-if(localStorage.getItem("EidGifts")){
+// if(localStorage.getItem("EidGifts")){
   
  
-  var giftSourse = document.getElementById('SearchResult');
+//   var giftSourse = document.getElementById('SearchResult');
   
-  var forget = localStorage.getItem('EidGifts');
-  var yy = JSON.parse(forget);
+//   var forget = localStorage.getItem('EidGifts');
+//   var yy = JSON.parse(forget);
 
-  console.log(yy);
-  for(var i = 0 ; i < yy.length;i++){
-    var xx  =document.createElement('img');
-    xx.src=yy[i];
-    try1.appendChild(xx); 
-  } 
-  localStorage.clear();
-}
-
-
-if(localStorage.getItem("GetWellGifts")){
-  
- 
-  var giftSourse = document.getElementById('SearchResult');
-  
-  var forget = localStorage.getItem('GetWellGifts');
-  var yy = JSON.parse(forget);
-
-  console.log(yy);
-  for(var i = 0 ; i < yy.length;i++){
-    var xx  =document.createElement('img');
-    xx.src=yy[i];
-    try1.appendChild(xx); 
-  } 
-  localStorage.clear();
-}
+//   console.log(yy);
+//   for(var i = 0 ; i < yy.length;i++){
+//     var xx  =document.createElement('img');
+//     xx.src=yy[i];
+//     try1.appendChild(xx); 
+//   } 
+//   localStorage.clear();
+// }
 
 
-if(localStorage.getItem("BirthdayGifts")){
+// if(localStorage.getItem("GetWellGifts")){
   
  
-  var giftSourse = document.getElementById('SearchResult');
+//   var giftSourse = document.getElementById('SearchResult');
   
-  var forget = localStorage.getItem('BirthdayGifts');
-  var yy = JSON.parse(forget);
+//   var forget = localStorage.getItem('GetWellGifts');
+//   var yy = JSON.parse(forget);
 
-  console.log(yy);
-  for(var i = 0 ; i < yy.length;i++){
-    var xx  =document.createElement('img');
-    xx.src=yy[i];
-    try1.appendChild(xx); 
-  } 
-  localStorage.clear();
-}
+//   console.log(yy);
+//   for(var i = 0 ; i < yy.length;i++){
+//     var xx  =document.createElement('img');
+//     xx.src=yy[i];
+//     try1.appendChild(xx); 
+//   } 
+//   localStorage.clear();
+// }
+
+
+// if(localStorage.getItem("BirthdayGifts")){
+  
+ 
+//   var giftSourse = document.getElementById('SearchResult');
+  
+//   var forget = localStorage.getItem('BirthdayGifts');
+//   var yy = JSON.parse(forget);
+
+//   console.log(yy);
+//   for(var i = 0 ; i < yy.length;i++){
+//     var xx  =document.createElement('img');
+//     xx.src=yy[i];
+//     try1.appendChild(xx); 
+//   } 
+//   localStorage.clear();
+// }

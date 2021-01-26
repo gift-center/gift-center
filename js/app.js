@@ -323,111 +323,111 @@ else if (sweets.checked===true && others.checked===false ){
 // }
 
 
-function MotherDay (giftBranch,giftSourse){
-    this.giftBranch = giftBranch; 
-    this.giftSourse = giftSourse;
-    MotherDay.prototype.allMotherDayGifts.push(this); 
-}
+// function MotherDay (giftBranch,giftSourse){
+//     this.giftBranch = giftBranch; 
+//     this.giftSourse = giftSourse;
+//     MotherDay.prototype.allMotherDayGifts.push(this); 
+// }
 
-MotherDay.prototype.allMotherDayGifts = []; 
+// MotherDay.prototype.allMotherDayGifts = []; 
 
-new MotherDay ('figure','../assets/MothersDayImg/img1.jpg');
-new MotherDay ('box','../assets/MothersDayImg/img2.jpg');
-new MotherDay ('box','../assets/MothersDayImg/img3.jpg');
-new MotherDay ('decore','../assets/MothersDayImg/img4.jpg');
-new MotherDay ('decore','../assets/MothersDayImg/img5.jpg');
-new MotherDay ('box','../assets/MothersDayImg/img6.jpg');
-new MotherDay ('decore','../assets/MothersDayImg/img8.jpg');
-new MotherDay ('accessory','../assets/MothersDayImg/img9.jpg');
-new MotherDay ('box','../assets/MothersDayImg/img10.jpg');
-new MotherDay ('clothes','../assets/MothersDayImg/img11.jpg');
-new MotherDay ('citchen','../assets/MothersDayImg/img12.jpg');
-new MotherDay ('box','../assets/MothersDayImg/img13.jpg');
-new MotherDay ('rose','../assets/MothersDayImg/img14.jpg');
-new MotherDay ('citchen','../assets/MothersDayImg/img15.jpg');
-new MotherDay ('decore','../assets/MothersDayImg/img16.jpg');
+// new MotherDay ('figure','../assets/MothersDayImg/img1.jpg');
+// new MotherDay ('box','../assets/MothersDayImg/img2.jpg');
+// new MotherDay ('box','../assets/MothersDayImg/img3.jpg');
+// new MotherDay ('decore','../assets/MothersDayImg/img4.jpg');
+// new MotherDay ('decore','../assets/MothersDayImg/img5.jpg');
+// new MotherDay ('box','../assets/MothersDayImg/img6.jpg');
+// new MotherDay ('decore','../assets/MothersDayImg/img8.jpg');
+// new MotherDay ('accessory','../assets/MothersDayImg/img9.jpg');
+// new MotherDay ('box','../assets/MothersDayImg/img10.jpg');
+// new MotherDay ('clothes','../assets/MothersDayImg/img11.jpg');
+// new MotherDay ('citchen','../assets/MothersDayImg/img12.jpg');
+// new MotherDay ('box','../assets/MothersDayImg/img13.jpg');
+// new MotherDay ('rose','../assets/MothersDayImg/img14.jpg');
+// new MotherDay ('citchen','../assets/MothersDayImg/img15.jpg');
+// new MotherDay ('decore','../assets/MothersDayImg/img16.jpg');
 
-function NewPorn (giftBranch,giftSourse){
-    this.giftBranch = giftBranch; 
-    this.giftSourse = giftSourse;
-    NewPorn.prototype.allNewPornGifts.push(this); 
-}
+// function NewPorn (giftBranch,giftSourse){
+//     this.giftBranch = giftBranch; 
+//     this.giftSourse = giftSourse;
+//     NewPorn.prototype.allNewPornGifts.push(this); 
+// }
 
-NewPorn.prototype.allNewPornGifts = []; 
+// NewPorn.prototype.allNewPornGifts = []; 
 
-new NewPorn ('carriage','../assets/NewBornImg/img1.webp');
-new NewPorn ('clothes','../assets/NewBornImg/img2.jpg');
-new NewPorn ('box','../assets/NewBornImg/img3.jpg');
-new NewPorn ('box','../assets/NewBornImg/img4.jpg');
-new NewPorn ('box','../assets/NewBornImg/img5.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img6.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img7.jpg');
-new NewPorn ('box','../assets/NewBornImg/img8.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img9.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img10.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img11.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img12.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img13.webp');
-new NewPorn ('clothes','../assets/NewBornImg/img14.jpg');
-new NewPorn ('box','../assets/NewBornImg/img2.jpeg');
-new NewPorn ('clothes','../assets/NewBornImg/img16.jpg');
-new NewPorn ('clothes','../assets/NewBornImg/img17.jpg');
+// new NewPorn ('carriage','../assets/NewBornImg/img1.webp');
+// new NewPorn ('clothes','../assets/NewBornImg/img2.jpg');
+// new NewPorn ('box','../assets/NewBornImg/img3.jpg');
+// new NewPorn ('box','../assets/NewBornImg/img4.jpg');
+// new NewPorn ('box','../assets/NewBornImg/img5.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img6.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img7.jpg');
+// new NewPorn ('box','../assets/NewBornImg/img8.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img9.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img10.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img11.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img12.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img13.webp');
+// new NewPorn ('clothes','../assets/NewBornImg/img14.jpg');
+// new NewPorn ('box','../assets/NewBornImg/img2.jpeg');
+// new NewPorn ('clothes','../assets/NewBornImg/img16.jpg');
+// new NewPorn ('clothes','../assets/NewBornImg/img17.jpg');
 
-function Graduation (giftBranch,giftSourse){
-    this.giftBranch = giftBranch; 
-    this.giftSourse = giftSourse;
-    Graduation.prototype.allGraduationGifts.push(this); 
-}
+// function Graduation (giftBranch,giftSourse){
+//     this.giftBranch = giftBranch; 
+//     this.giftSourse = giftSourse;
+//     Graduation.prototype.allGraduationGifts.push(this); 
+// }
 
-Graduation.prototype.allGraduationGifts = []; 
+// Graduation.prototype.allGraduationGifts = []; 
 
-new Graduation ('hangings','../assets/graduationsproducts/img-1.jpg');
-new Graduation ('cups','../assets/graduationsproducts/img-2.jpg');
-new Graduation ('cups','../assets/graduationsproducts/img-3.png');
-new Graduation ('hangings','../assets/graduationsproducts/img-4.jpg');
-new Graduation ('cups','../assets/graduationsproducts/img-5.png');
-new Graduation ('decore','../assets/graduationsproducts/img-6.jpg');
-new Graduation ('hangings','../assets/graduationsproducts/img-7.jpg');
-new Graduation ('box','../assets/graduationsproducts/img-8.jpg');
-new Graduation ('figure','../assets/graduationsproducts/img-9.jpg');
-new Graduation ('figure','../assets/graduationsproducts/img-10.jpg');
-new Graduation ('hangings','../assets/graduationsproducts/img-11.jpg');
-new Graduation ('hangings','../assets/graduationsproducts/img-12.jpg');
-new Graduation ('hangings','../assets/graduationsproducts/img-13.jpg');
-new Graduation ('sweet','../assets/graduationsproducts/img-14.jpg');
-new Graduation ('sweet','../assets/graduationsproducts/img-15.jpg');
-new Graduation ('cups','../assets/graduationsproducts/img-16.jpg');
-new Graduation ('sweet','../assets/graduationsproducts/img-17.jpg');
-new Graduation ('box','../assets/graduationsproducts/img-18.jpg');
-new Graduation ('decore','../assets/graduationsproducts/img-19.jpg');
-new Graduation ('decore','../assets/graduationsproducts/img-20.jpg');
+// new Graduation ('hangings','../assets/graduationsproducts/img-1.jpg');
+// new Graduation ('cups','../assets/graduationsproducts/img-2.jpg');
+// new Graduation ('cups','../assets/graduationsproducts/img-3.png');
+// new Graduation ('hangings','../assets/graduationsproducts/img-4.jpg');
+// new Graduation ('cups','../assets/graduationsproducts/img-5.png');
+// new Graduation ('decore','../assets/graduationsproducts/img-6.jpg');
+// new Graduation ('hangings','../assets/graduationsproducts/img-7.jpg');
+// new Graduation ('box','../assets/graduationsproducts/img-8.jpg');
+// new Graduation ('figure','../assets/graduationsproducts/img-9.jpg');
+// new Graduation ('figure','../assets/graduationsproducts/img-10.jpg');
+// new Graduation ('hangings','../assets/graduationsproducts/img-11.jpg');
+// new Graduation ('hangings','../assets/graduationsproducts/img-12.jpg');
+// new Graduation ('hangings','../assets/graduationsproducts/img-13.jpg');
+// new Graduation ('sweet','../assets/graduationsproducts/img-14.jpg');
+// new Graduation ('sweet','../assets/graduationsproducts/img-15.jpg');
+// new Graduation ('cups','../assets/graduationsproducts/img-16.jpg');
+// new Graduation ('sweet','../assets/graduationsproducts/img-17.jpg');
+// new Graduation ('box','../assets/graduationsproducts/img-18.jpg');
+// new Graduation ('decore','../assets/graduationsproducts/img-19.jpg');
+// new Graduation ('decore','../assets/graduationsproducts/img-20.jpg');
 
 
-function NewHome (giftBranch,giftSourse){
-    this.giftBranch = giftBranch; 
-    this.giftSourse = giftSourse;
-    NewHome.prototype.allNewHomeGifts.push(this); 
-}
+// function NewHome (giftBranch,giftSourse){
+//     this.giftBranch = giftBranch; 
+//     this.giftSourse = giftSourse;
+//     NewHome.prototype.allNewHomeGifts.push(this); 
+// }
 
-NewHome.prototype.allNewHomeGifts = []; 
+// NewHome.prototype.allNewHomeGifts = []; 
 
-new NewHome ('hangings','../assets/homeImage/img-1.jpg');
-new NewHome ('hangings','../assets/homeImage/img-2.jpg');
-new NewHome ('hangings','../assets/homeImage/img-3.jpg');
-new NewHome ('hangings','../assets/homeImage/img-4.jpg');
-new NewHome ('hangings','../assets/homeImage/img-5.jpg');
-new NewHome ('hangings','../assets/homeImage/img-6.jpg');
-new NewHome ('hangings','../assets/homeImage/img-7.jpg');
-new NewHome ('hangings','../assets/homeImage/img-8.jpg');
-new NewHome ('hangings','../assets/homeImage/img-9.jpg');
-new NewHome ('hangings','../assets/homeImage/img-10.jpg');
-new NewHome ('hangings','../assets/homeImage/img-11.jpg');
-new NewHome ('hangings','../assets/homeImage/img-12.jpg');
-new NewHome ('hangings','../assets/homeImage/img-13.jpg');
-new NewHome ('hangings','../assets/homeImage/img-14.jpg');
-new NewHome ('hangings','../assets/homeImage/img-15.jpg');
-new NewHome ('hangings','../assets/homeImage/img-16.jpg');
-new NewHome ('hangings','../assets/homeImage/img-17.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-1.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-2.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-3.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-4.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-5.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-6.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-7.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-8.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-9.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-10.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-11.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-12.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-13.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-14.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-15.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-16.jpg');
+// new NewHome ('hangings','../assets/homeImage/img-17.jpg');
 
 
 function NewYear (giftBranch,giftSourse){
