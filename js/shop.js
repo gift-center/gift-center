@@ -223,10 +223,10 @@ new KidsShops('Toys R Us', 'assests/shops/toysrus.jpg', 'https://www.toysrus.com
 function rendersShopsForAccessories(){
     clearmain();
 
-    img1.src = 'assests/accessories slider/img1.jpg';
-    img2.src = 'assests/accessories slider/img2.jpg';
-    img3.src = 'assests/accessories slider/img3.jpg';
-    img4.src = 'assests/accessories slider/img4.jpg';
+    img1.src = 'assests/accessories slider/sam1.png';
+    img2.src = 'assests/accessories slider/sam2.jpg';
+    img3.src = 'assests/accessories slider/sam3.png';
+    img4.src = 'assests/accessories slider/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
@@ -261,10 +261,10 @@ function rendersShopsForAccessories(){
 function rendersShopsForBooks(){
     clearmain();
 
-    img1.src = 'assests/books slider/img1.jpg';
+    img1.src = 'assests/books slider/sam1.jpg';
     img2.src = 'assests/books slider/img2.jpg';
-    img3.src = 'assests/books slider/img3.jpg';
-    img4.src = 'assests/books slider/img4.jpg';
+    img3.src = 'assests/books slider/sam3.jpeg';
+    img4.src = 'assests/books slider/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
@@ -298,10 +298,10 @@ function rendersShopsForBooks(){
 function rendersShopsForCakes(){
     clearmain();
 
-    img1.src = 'assests/cakes slider/img1.jpg';
-    img2.src = 'assests/cakes slider/img2.jpeg';
-    img3.src = 'assests/cakes slider/img3.jpeg';
-    img4.src = 'assests/cakes slider/img4.jpeg';
+    img1.src = 'assests/cakes slider/sam1.jpg';
+    img2.src = 'assests/cakes slider/sam2.jpg';
+    img3.src = 'assests/cakes slider/sam3.jpg';
+    img4.src = 'assests/cakes slider/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
@@ -336,9 +336,9 @@ function rendersShopsForCosmetics(){
     clearmain();
     
 
-    img1.src = 'assests/makeup slider/img1.png';
+    img1.src = 'assests/makeup slider/sam5.jpg';
     img2.src = 'assests/makeup slider/img2.jpeg';
-    img3.src = 'assests/makeup slider/img3.jpg';
+    img3.src = 'assests/makeup slider/sam6.jpg';
     img4.src = 'assests/makeup slider/img4.jpg';
 
 
@@ -375,10 +375,10 @@ function rendersShopsForElectronics(){
     clearmain();
 
 
-    img1.src = 'assests/electronics slider/img1.jpeg';
-    img2.src = 'assests/electronics slider/img2.jpeg';
-    img3.src = 'assests/electronics slider/img3.jpg';
-    img4.src = 'assests/electronics slider/img4.jpeg';
+    img1.src = 'assests/electronics slider/sam1.jpg';
+    img2.src = 'assests/electronics slider/sam2.jpg';
+    img3.src = 'assests/electronics slider/sam3.jpg';
+    img4.src = 'assests/electronics slider/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
@@ -413,7 +413,7 @@ function rendersShopsForFlowers(){
     clearmain();
 
     img1.src = 'assests/flowers/img1.jpeg';
-    img2.src = 'assests/flowers/img1.webp';
+    img2.src = 'assests/flowers/sam1.jpg';
     img3.src = 'assests/flowers/img2.jpeg';
     img4.src = 'assests/flowers/img2.jpg';
 
@@ -449,10 +449,10 @@ function rendersShopsForFlowers(){
 function rendersShopsForFurniture(){
     clearmain();
 
-    img1.src = 'assests/furniture slide/img1.jpg';
-    img2.src = 'assests/furniture slide/img2.jpg';
-    img3.src = 'assests/furniture slide/img3.jpg';
-    img4.src = 'assests/furniture slide/img4.jpeg';
+    img1.src = 'assests/furniture slide/sam1.jpg';
+    img2.src = 'assests/furniture slide/sam2.jpg';
+    img3.src = 'assests/furniture slide/sam3.jpg';
+    img4.src = 'assests/furniture slide/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
@@ -487,10 +487,10 @@ function rendersShopsForKids(){
     clearmain();
 
 
-    img1.src = 'assests/kids slide/img1.jpeg';
-    img2.src = 'assests/kids slide/img1.jpg';
-    img3.src = 'assests/kids slide/img2.jpeg';
-    img4.src = 'assests/kids slide/img4.jpeg';
+    img1.src = 'assests/kids slide/sam1.jpg';
+    img2.src = 'assests/kids slide/sam2.jpg';
+    img3.src = 'assests/kids slide/sam3.jpg';
+    img4.src = 'assests/kids slide/sam4.jpg';
 
     var shopDivider;
     var shop = document.createElement('section');
