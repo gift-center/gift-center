@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@1,700&family=Lobster&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
-#logo2{
-    font-family: 'Hachi Maru Pop', cursive;
-    display: inline-block;
-    height: 35px;
-    font-size: xx-large;
-    font-style: italic;
-    font-weight: 900;
-   }
-   #logo2:hover{
-     transition: 1s color;
-     color: rgb(214, 142, 47);
-   }
    #icons a{
      display: block;
      margin-top: 5px;
@@ -29,11 +17,12 @@
   #main-img1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 15px;
     margin-right: auto;
-    margin-left: auto;
     width: 65%;
+    margin-left: 185px;
     padding-bottom: 20px;
+
   }
   #main-img2{
     display: grid;
@@ -55,6 +44,7 @@
   margin-top: 5px;
   margin: 10px;
   height: 550px;
+  width: 302px;
 }
 .container {
   margin-top: 5%;
@@ -66,26 +56,30 @@
   font-size: 30px;
   padding-bottom: 10px;
   font-weight: bold;
+  color:  #09555A;
+  font-family:'Caveat', cursive;
 }
 .container p{
-  font-size: 25px;
+  /* font-size: 25px; */
   padding-bottom: 5px;
+  color: #09555A;
 }
-.container a{
-  display: block;
-  text-decoration: none;
-  margin: 20px;
-  font-size: x-large;
-  font-family:'Caveat', cursive;
-  border: solid;
-  background-color:   #DB7093;
-  color: white;
-  width: 100px;
-  border-radius: 15px;
-  font-size: xx-large;
-  font-weight: bolder;
-  margin-left: 95px;
+
+#title{
+  margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: xx-large;
+    margin-top: 15px;
+    color:#09555A;
+    font-family:'Caveat', cursive;
+    font-weight: bolder;
 }
+
+.email{
+  font-size: 20px;
+}
+
 .categorySection{
   margin-top: 150px;
   margin-left: 15px;
@@ -99,9 +93,11 @@ a{
 .about-section {
   padding: 50px;
   text-align: center;
-  background-color: #A95773;
-  color: white;
-  height: 200px;
+  background-color: #ecb7bf;
+  height: 125px;
+  text-shadow: 4px 4px 4px #ffffff;
+  color: #09555A;
+  font-weight: 400;
 }
 *{
   box-sizing: inherit;
@@ -116,6 +112,7 @@ a{
 }
 .title {
   color: grey;
+  font-size: 20px;
 }
 .button:hover {
   background-color: #555;
@@ -132,12 +129,13 @@ a{
 .about-section h1{
   font-size: 50px;
   margin-bottom: 20px;
-  color: aliceblue;
+  color: #09555A;
   font-family: 'Caveat', cursive;
+  font-weight: bolder;
 }
 .about-section p{
   font-size: 40px;
-  font-family:'Caveat', cursive;;
+  font-family:'Caveat', cursive;
 }
 .container p{
   margin-bottom: 20px;
