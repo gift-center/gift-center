@@ -55,15 +55,17 @@
     <fieldset> 
       <p id="para-form">Suggestions</p>
       
-      <label style="font-size: larger;padding-left: 12px;" for="">Budget</label>
-      <input type="number" placeholder="Your Budget" style="margin-left: 3px;" required><br>
+      <label style="font-size: larger;padding-left: 12px ; visibility: hidden;" for="">Budget</label>
+      <input type="number" placeholder="Your Budget" style="margin-left: 3px;visibility: hidden; " required ><br>
+      <br>
       <label style="font-size: larger;padding-left: 12px;"for="">Interests:</label>
       <br>
 
       <div id="daynamicForm">  
       </div>
 
-      <button id="sub-form"type="submit">Search</button><p id="p-form">x</p>
+      <!-- <button id="sub-form"type="submit">Search</button> -->
+      <p id="p-form">x</p>
           <!-- <input type="checkbox" name="" id="">
           <label for="">Flowers</label>
           <input type="checkbox" name="" id="">
@@ -109,7 +111,7 @@
     <div class="container">
       <h4><b>Birthday Gift</b></h4> 
 
-      <button class="btn-shine" onclick="createforms(birthday)">
+      <button class="btn-shine" onclick="createforms(birthday,'result3')">
          <span>Suggestions</span>
 
       
@@ -124,7 +126,7 @@
     <div class="container">
       <h4><b>Christmas Gift</b></h4> 
 
-      <button class="btn-shine" onclick="createforms(christ)">
+      <button class="btn-shine" onclick="createforms(christ,'result')">
        <span>Suggestions</span>
 
      
@@ -138,7 +140,7 @@
     <img src="assests/samehCards/graduation gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>Graduation Gift</b></h4>
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(graduation , 'result6')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -149,10 +151,10 @@
     <div class="container">
       <h4><b>Eid Gift</b></h4> 
 
-      <button class="btn-shine" onclick="createforms(eid)">
+      <button class="btn-shine" onclick="createforms(eid,'result1')">
         <span>Suggestions</span>
 
-      <button class="btn-shine" onclick="createforms()">
+      <!-- <button class="btn-shine" onclick="createforms()"> -->
         
 
       </button>
@@ -164,7 +166,7 @@
     <div class="container">
       <h4><b>Get Well Gift</b></h4>
 
-      <button class="btn-shine" onclick="createforms(gitwell)">
+      <button class="btn-shine" onclick="createforms(gitwell,'result2')">
    <span>Suggestions</span>
 
       
@@ -178,7 +180,7 @@
     <img src="assests/samehCards/Mother's Day Gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>Mother's Day Gift</b></h4>
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(motherday , 'result4')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -188,7 +190,7 @@
     <img src="assests/samehCards/New born gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>New Born Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(newborn , 'result5')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -198,7 +200,7 @@
     <img src="assests/samehCards/New home gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>New Home Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(newhome,'result7')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -208,7 +210,7 @@
     <img src="assests/samehCards/New year gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>New Year Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(newyear , 'result8')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -218,7 +220,7 @@
     <img src="assests/samehCards/Ramadan.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>Ramadan Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(ramadan , 'result9')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -227,7 +229,7 @@
     <img src="assests/samehCards/Vala gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>Valentine's Day Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(valentine,'result10')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -237,7 +239,7 @@
     <img src="assests/samehCards/wedding gift.jpg" alt="Avatar" style="width:100%; overflow: hidden; height: 200px;">
     <div class="container">
       <h4><b>Wedding Gift</b></h4> 
-      <button class="btn-shine" onclick="createforms()">
+      <button class="btn-shine" onclick="createforms(wedding , 'result11')">
         <span>Suggestions</span>
       </button>
     </div>
@@ -247,7 +249,7 @@
 
 <div id="body-form" style="z-index: 3;">
   <div id ="divform" class="hideform">
-<form>
+<!-- <form>
   <fieldset> 
     <p id="para-form">Order</p>
     
@@ -289,7 +291,7 @@
         <label for="">Home Decoration</label>
     <button id="sub-form"type="submit">Search</button><p id="p-form">x</p>
   </fieldset>
-</form>
+</form> -->
 
   </div>
 </div> 
