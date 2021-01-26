@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 
 #logo{
- font-family: 'Hachi Maru Pop', cursive;
+  font-family: 'Yusei Magic', sans-serif;
  display: inline-block;
  height: 35px;
  margin-top: 15px;
@@ -28,7 +28,7 @@ main{
   /* background-image: url(../assests/mainbackground.jpg);
   background-repeat: no-repeat;
    */
-   background-color: #d3d3d3;
+   background-color:#ece3e3;
    /* height: 100%; */
   
 }
@@ -48,12 +48,16 @@ a{
 .dropbtn{
     float: right;
     overflow: hidden;
-    margin-top: -98px;
+    margin-top: -96px;
     margin-right: 40px;
     display: inline-block;
     padding: 5px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Yusei Magic', sans-serif;
     font-size:x-large;
+}
+
+.dropbtn:hover{
+  cursor: pointer;
 }
 
  header{
@@ -70,14 +74,18 @@ a{
 #list-header ul{
   margin-right: 10%;
   margin-top: 3.5%; 
-  color: #41aea9;
+  color: #09555A;
   float: right;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 li{
   display: inline-block;
   padding: 5px;
-  font-family: 'Indie Flower', cursive;
+  font-family: 'Yusei Magic', sans-serif;
   
   font-size: large;
 }
@@ -85,8 +93,8 @@ header a:hover{
   transition: 1s color;
   border-bottom: 1px solid whitesmoke;
   color:  #DB7093;
-  font-size: x-large;
-  font-weight: 800;
+  /* font-size: x-large;
+  font-weight: 800; */
 }
 #side-img{
   position: relative;
@@ -244,7 +252,7 @@ footer h4, h5{
  .navbar {
   overflow: hidden;
   background-color: #333;
-  font-family: Arial;
+  font-family: 'Yusei Magic', sans-serif;
   margin-top: 30px;
     margin-right: 35px;
     float: right;
@@ -257,16 +265,18 @@ footer h4, h5{
   outline: none;
   color:#09555A;
   padding: 14px 16px;
-  font-family: 'Indie Flower', cursive; 
+  font-family: 'Yusei Magic', sans-serif;
  } 
 
 /* Add a red background color to navbar links on hover */
-.navbar a:hover, .dropdown:hover .dropbtn {
+/* .navbar a:hover, .dropdown:hover .dropbtn {*/
+.navbar a:hover {
   transition: 1s color;
   border-bottom: 1px solid whitesmoke;
   color:  #DB7093;
-  font-size: x-large;
-  font-weight: 800;
+  font-weight: bolder;
+  /* font-size: x-large;
+  font-weight: 800; */
 }
 
 /* Dropdown content (hidden by default) */
@@ -275,6 +285,7 @@ footer h4, h5{
   margin-top: -50px;
   display: none;
   position: absolute;
+  font-family: 'Yusei Magic', sans-serif;
   background-color:  #F8EDF3;
   border: 2px solid  #DB7093;
   min-width: 160px;
@@ -293,7 +304,9 @@ footer h4, h5{
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-  background-color:  #F8EDF3;
+  background-color:  #09555A;
+  font-weight: bolder;
+  cursor: pointer;
 }
 
 /* Show the dropdown menu on hover */
@@ -305,6 +318,7 @@ footer h4, h5{
   border: 1px solid;
   overflow: hidden;
   position: relative;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 span {
@@ -349,16 +363,15 @@ button {
   color: #DB7093;
   font-weight: 400;
   font-size: 20px;
-  font-family: inherit;
+  font-family: 'Yusei Magic', sans-serif;
   z-index: 0;
   overflow: hidden;
   transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);}
   span {
     color: #09555A;
-    font-size: 24px;
+    font-size: 25px;
     font-weight: bolder;
-    font-family: 'Indie Flower', cursive;
-    font-style: italic;
+    font-family: 'Yusei Magic', sans-serif;
   }
 span:hover {
     animation: rotate 0.7s ease-in-out both;}
@@ -366,5 +379,3 @@ span:hover {
       animation: storm 0.7s ease-in-out both;
       animation-delay: 0.06s;
     }
-
-   

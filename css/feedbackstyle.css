@@ -12,41 +12,30 @@
     margin-top: 30px;
   }
 label{
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: 25px;
-    font-family:oblique;
+    margin-left: 5px;
+    font-size: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #09555A;
   }
-input{
-    margin-top: 15px;
-    width: 60%;
-    margin-left: 15px;
-    height: 200px;
-}
-button{
-    margin-top: 5px;
-    width: 150px;
-    height: 50px;
-    font-weight: bolder;
-    font-style: oblique;
-    background-color: white;
-    border-radius: 15px;
-    margin-left: 15px;
-    border: solid rgba(150, 50, 35, 0.76);
-}
+
 #comments-container{
-    width: 60%;
-    border: 2px solid rgba(112, 35, 35, 0.76);
+    width: 72%;
     margin-top: 20px;
     margin-left: 15px;
+    background: url(../img/note.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px;
 }
+
 #feedback{
     margin-top: 25px;
-    margin-left: 20px;
-    font-weight: bold;
-    font-size: xx-large;
-    font-family: 'Dancing Script', cursive;
+    margin-left: 5px;
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-family: 'Yusei Magic', sans-serif;
+    color: #09555A;
 }
+
 #commit{
     display: inline-block;
     padding: 5px;
@@ -57,12 +46,52 @@ button{
   padding: 50px;
   text-align: center;
   background-color: #A95773;
-  color: white;
-  height: 200px;
+  height: 75px;
+  color: #09555A;
+  font-weight: 400;
 }
 .about-feadback h1{
   font-size: 50px;
   margin-bottom: 20px;
-  color: aliceblue;
+  color: #e5eaeb;
   font-family: 'Caveat', cursive;
+  font-weight: bolder;
+}
+
+button[type=submit] {
+  width: 30%;
+  background-color: #A95773;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 40px;
+  margin-left: 150px;
+}
+
+button[type=submit]:hover {
+  background-color: #A95773;
+}
+
+input[type=text], select {
+  width: 75%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 80px;
+}
+
+#comments-container ul{
+  margin: 10px;
+  padding-left: 65px;
+}
+
+#comments-container li {
+  font-family:Arial, Helvetica, sans-serif;
+  margin-bottom: 5px;
 }

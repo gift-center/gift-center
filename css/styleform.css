@@ -12,20 +12,25 @@
   margin-top: 15px;
   font-size: x-large;
   color: white;
+  font-weight: bold;
 }
 
 fieldset{
   /* border-radius: 5%; */
   position: relative;
-  background-color:#db7094ef;
+  background-color:#A95773;
   color: white;
-  height: 330px;
+  height: 375px;
   
 }
 fieldset label{
   display: inline-block; 
   width: 60px;
   margin: 12px;
+}
+
+label{
+  font-size: large;
 }
 
 input{
@@ -50,17 +55,17 @@ fieldset
   border: none;
   position: relative;
   bottom: 0px;
-  left: 200px;
+  left: 160px;
   top: 15px;
   width: 200px;
   height: 30px;
   background-color:   white;
-  color:#db7094ef;
+  color:#A95773;
   font-weight: bold;
 }
 #sub-form:hover{
   background-color:  #F8EDF3;
-  color:rgb(124, 66, 172);
+  color: #09555A;
 }
 #body-form{
   position: fixed;
