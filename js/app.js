@@ -1,7 +1,7 @@
 'use strict';
 
 // console.log('test'); 
-var sweets;
+/* var sweets;
 var others;
 var budjet;
 
@@ -82,7 +82,7 @@ else if (sweets.checked===true && others.checked===false ){
 }
 }
 }
-
+ */
 
 function Eid  ( giftBranch, giftSourse) {
     this.gifBranch = giftBranch;

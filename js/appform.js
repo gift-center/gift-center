@@ -11,7 +11,8 @@ function closep(){
 
 }
 var createform = document.getElementsByClassName("orderform");
-// createform.addEventListener("click", createforms);
+
+
 
 function createforms(cardarray){
   var formcol =document.getElementById("body-form");
@@ -26,11 +27,8 @@ function createforms(cardarray){
     daynamicForm.appendChild(input);
     daynamicForm.appendChild(label);
   }
-//   var submit = document.createElement('button');
-// submit.setAttribute('id','sub-form');
-// submit.setAttribute('type','submit'); 
-// submit.textContent = 'Search'; 
-// daynamicForm.appendChild(submit); 
+
+
 
   formcol.removeAttribute("class")
 
@@ -81,65 +79,39 @@ var submit = document.getElementById('sub-form');
 submit.addEventListener('click',result);
 
 function result (event){
-console.log('test');
+
 
     event.preventDefault();
     
-    // console.log('test submit');
-
-// console.log(event);
+  
  sweets = document.getElementById('sweets');
  others = document.getElementById('others');
  
- console.log(sweets.checked  ,   others.checked); 
-console.log(christmas.prototype.allChristamsGifts.length);
+//  console.log(sweets.checked  ,   others.checked); 
+// console.log(christmas.prototype.allChristamsGifts.length);
      
 
-//  budjet = document.getElementById('budjet');
-// console.log(sweet.checked , others.checked); 
-//  console.log(sweets.checked , others.checked);
 
-if (sweets.checked===true && others.checked===true){
-  var x =[];
-    for (var i=0 ; i<christmas.prototype.allChristamsGifts.length;i++){
-      console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
-      x.push(christmas.prototype.allChristamsGifts[i].giftSourse);
-    }
-  localStorage.setItem("ChristamsGifts",JSON.stringify(x));
-  window.location.replace("../result.html");
- 
-}else if (sweets.checked===false && others.checked===true){
-  
-  var x =[];
-    for (var i=0 ; i <christmas.prototype.allChristamsGifts.length; i++){
-      
-        if (christmas.prototype.allChristamsGifts[i].gifBranch== 'others'){
 
-        console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
-        x.push(christmas.prototype.allChristamsGifts[i].giftSourse);
-        }
+var x =[];
+for (var i=0 ; i<christmas.prototype.allChristamsGifts.length;i++){
+  if (others.checked && christmas.prototype.allChristamsGifts[i].gifBranch== 'others'){
+    
 
-    }
-    localStorage.setItem("ChristamsGifts",JSON.stringify(x));
-    window.location.replace("../result.html");
+    x.push(christmas.prototype.allChristamsGifts[i].giftSourse);
+
+  }else if (sweets.checked && christmas.prototype.allChristamsGifts[i].gifBranch == 'sweets' ){
+    
+    
+    x.push(christmas.prototype.allChristamsGifts[i].giftSourse); 
+  }
 }
-else if (sweets.checked===true && others.checked===false ){
-  var x =[];
-    for (var i=0 ; i < christmas.prototype.allChristamsGifts.length ; i++){
-        if (christmas.prototype.allChristamsGifts[i].gifBranch == 'sweets'){
+localStorage.setItem("ChristamsGifts",JSON.stringify(x));
+window.location.replace("../result.html");
 
-          console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
-          x.push(christmas.prototype.allChristamsGifts[i].giftSourse); 
 
-    }
 }
-    localStorage.setItem("ChristamsGifts",JSON.stringify(x));
-    window.location.replace("../result.html");
-}
-} 
 
 
 
- 
-// window.location.replace("../result.html");
-// localStorage.setItem("rendersShopsForElectronics",1);
+
