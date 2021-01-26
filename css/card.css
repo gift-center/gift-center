@@ -12,6 +12,7 @@
   margin-top: 20px;
   margin-left: 140px; */
   background-color: #FEE5E0;
+  /* background-color: #C9A9A6; */
   box-shadow: 0 4px 8px 0 rgba(112, 35, 35, 0.76);
   padding: 5px;
   transition: 0.3s;
@@ -31,7 +32,7 @@
 }
 .container h4, h3{
   color: #09555A;
-  font-family: 'Caveat', cursive;
+  font-family: 'Yusei Magic', sans-serif;
   font-stretch: condensed;
   font-size: x-large;
   font-weight: bolder;
@@ -52,7 +53,7 @@
   text-decoration: none;
   margin: 20px;
   font-size: x-large;
-  font-family:'Caveat', cursive;
+  font-family: 'Yusei Magic', sans-serif;
   border: solid;
   color:#09555A;
   width: 100px;
