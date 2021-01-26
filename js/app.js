@@ -21,23 +21,23 @@ function christmas  ( giftBranch, giftSourse) {
 }
 
 christmas.prototype.allChristamsGifts = [];
-new christmas('sweets','../assests/christmasproducts/img(1).jpeg');
-new christmas('sweets','../assests/christmasproducts/img(1).jpg');
-new christmas('others','../assests/christmasproducts/img(1).png');
-new christmas('others','../assests/christmasproducts/img(2).jpeg');
-new christmas('sweets','../assests/christmasproducts/img(2).jpg');
-new christmas('sweets','../assests/christmasproducts/img(3).jpg');
-new christmas('others','../assests/christmasproducts/img(4).jpg');
-new christmas('sweets','../assests/christmasproducts/img(5).jpg');
-new christmas('sweets','../assests/christmasproducts/img(6).jpg');
-new christmas('sweets','../assests/christmasproducts/img(7).jpg');
-new christmas('sweets','../assests/christmasproducts/img(8).jpg');
-new christmas('sweets','../assests/christmasproducts/img(9).jpg');
-new christmas('sweets','../assests/christmasproducts/img(10).jpg');
-new christmas('sweets','../assests/christmasproducts/img(11).jpg');
-new christmas('others','../assests/christmasproducts/img(12).jpg');
-new christmas('others','../assests/christmasproducts/img(13).jpg');
-new christmas('sweets','../assests/christmasproducts/img(14).jpg');
+new christmas('sweets','assests/christmasproducts/img (1).jpeg');
+new christmas('sweets','assests/christmasproducts/img (1).jpg');
+new christmas('others','assests/christmasproducts/img (1).png');
+new christmas('others','assests/christmasproducts/img (2).jpeg');
+new christmas('sweets','assests/christmasproducts/img (2).jpg');
+new christmas('sweets','assests/christmasproducts/img (3).jpg');
+new christmas('others','assests/christmasproducts/img (4).jpg');
+new christmas('sweets','assests/christmasproducts/img (5).jpg');
+new christmas('sweets','assests/christmasproducts/img (6).jpg');
+new christmas('sweets','assests/christmasproducts/img (7).jpg');
+new christmas('sweets','assests/christmasproducts/img (8).jpg');
+new christmas('sweets','assests/christmasproducts/img (9).jpg');
+new christmas('sweets','assests/christmasproducts/img (10).jpg');
+new christmas('sweets','assests/christmasproducts/img (11).jpg');
+new christmas('others','assests/christmasproducts/img (12).jpg');
+new christmas('others','assests/christmasproducts/img (13).jpg');
+new christmas('sweets','assests/christmasproducts/img (14).jpg');
 
 var submit = document.getElementById('sub-form'); 
 

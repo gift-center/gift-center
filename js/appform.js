@@ -56,23 +56,24 @@ function christmas  ( giftBranch, giftSourse) {
 }
 
 christmas.prototype.allChristamsGifts = [];
-new christmas('sweets','../assests/christmasproducts/img(1).jpeg');
-new christmas('sweets','../assests/christmasproducts/img(1).jpg');
-new christmas('others','../assests/christmasproducts/img(1).png');
-new christmas('others','../assests/christmasproducts/img(2).jpeg');
-new christmas('sweets','../assests/christmasproducts/img(2).jpg');
-new christmas('sweets','../assests/christmasproducts/img(3).jpg');
-new christmas('others','../assests/christmasproducts/img(4).jpg');
-new christmas('sweets','../assests/christmasproducts/img(5).jpg');
-new christmas('sweets','../assests/christmasproducts/img(6).jpg');
-new christmas('sweets','../assests/christmasproducts/img(7).jpg');
-new christmas('sweets','../assests/christmasproducts/img(8).jpg');
-new christmas('sweets','../assests/christmasproducts/img(9).jpg');
-new christmas('sweets','../assests/christmasproducts/img(10).jpg');
-new christmas('sweets','../assests/christmasproducts/img(11).jpg');
-new christmas('others','../assests/christmasproducts/img(12).jpg');
-new christmas('others','../assests/christmasproducts/img(13).jpg');
-new christmas('sweets','../assests/christmasproducts/img(14).jpg');
+new christmas('sweets','assests/christmasproducts/img (1).jpeg');
+new christmas('sweets','assests/christmasproducts/img (1).jpg');
+new christmas('others','assests/christmasproducts/img (1).png');
+new christmas('others','assests/christmasproducts/img (2).jpeg');
+new christmas('sweets','assests/christmasproducts/img (2).jpg');
+new christmas('sweets','assests/christmasproducts/img (3).jpg');
+new christmas('others','assests/christmasproducts/img (4).jpg');
+new christmas('sweets','assests/christmasproducts/img (5).jpg');
+new christmas('sweets','assests/christmasproducts/img (6).jpg');
+new christmas('sweets','assests/christmasproducts/img (7).jpg');
+new christmas('sweets','assests/christmasproducts/img (8).jpg');
+new christmas('sweets','assests/christmasproducts/img (9).jpg');
+new christmas('sweets','assests/christmasproducts/img (10).jpg');
+new christmas('sweets','assests/christmasproducts/img (11).jpg');
+new christmas('others','assests/christmasproducts/img (12).jpg');
+new christmas('others','assests/christmasproducts/img (13).jpg');
+new christmas('sweets','assests/christmasproducts/img (14).jpg');
+
 
 
 var submit = document.getElementById('sub-form'); 
@@ -91,45 +92,54 @@ console.log('test');
  others = document.getElementById('others');
  
  console.log(sweets.checked  ,   others.checked); 
-    console.log(christmas.prototype.allChristamsGifts.length);
-     var giftSourse = document.getElementById('SearchResult');
+console.log(christmas.prototype.allChristamsGifts.length);
+     
 
 //  budjet = document.getElementById('budjet');
 // console.log(sweet.checked , others.checked); 
 //  console.log(sweets.checked , others.checked);
-closep(); 
+
 if (sweets.checked===true && others.checked===true){
+  var x =[];
     for (var i=0 ; i<christmas.prototype.allChristamsGifts.length;i++){
-
-        fathi.createElement('img');
-        fathi.setAttribute('src',christmas.prototype.allChristamsGifts.giftSourse[i]);
-        giftSourse.appendChild(fathi); 
-
-// display all images in christmas img folder     
-
+      console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
+      x.push(christmas.prototype.allChristamsGifts[i].giftSourse);
     }
+  localStorage.setItem("ChristamsGifts",JSON.stringify(x));
+  window.location.replace("../result.html");
+ 
 }else if (sweets.checked===false && others.checked===true){
-    for (var i=0 ; i <Eid.prototype.allEidGifts.length ; i++){
-        if (Eid.prototype.allEidGifts.giftBranch== 'others'){
+  
+  var x =[];
+    for (var i=0 ; i <christmas.prototype.allChristamsGifts.length; i++){
+      
+        if (christmas.prototype.allChristamsGifts[i].gifBranch== 'others'){
 
-// display images which are holding others category 
-
+        console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
+        x.push(christmas.prototype.allChristamsGifts[i].giftSourse);
         }
+
     }
+    localStorage.setItem("ChristamsGifts",JSON.stringify(x));
+    window.location.replace("../result.html");
 }
 else if (sweets.checked===true && others.checked===false ){
-    for (var i=0 ; i < Eid.prototype.allEidGifts.length ; i++){
-        if (Eid.prototype.allEidGifts.giftBranch== 'sweets'){
+  var x =[];
+    for (var i=0 ; i < christmas.prototype.allChristamsGifts.length ; i++){
+        if (christmas.prototype.allChristamsGifts[i].gifBranch == 'sweets'){
 
-      // display images which are holding the sweets category 
+          console.log(christmas.prototype.allChristamsGifts[i].giftSourse);
+          x.push(christmas.prototype.allChristamsGifts[i].giftSourse); 
 
     }
 }
+    localStorage.setItem("ChristamsGifts",JSON.stringify(x));
+    window.location.replace("../result.html");
 }
+} 
 
-}
 
 
  
-window.location.replace("../result.html");
-localStorage.setItem("rendersShopsForElectronics",1);
+// window.location.replace("../result.html");
+// localStorage.setItem("rendersShopsForElectronics",1);
