@@ -603,7 +603,7 @@ if(localStorage.getItem("rendersShopsForFlowers")){
 }
 function rendersShopsForElectronic(){
     
-    window.location.replace("../shop.html");
+    window.location.replace("../gift-center/shop.html");
     localStorage.setItem("rendersShopsForElectronics",1);
 }
 if(localStorage.getItem("rendersShopsForElectronics")){
