@@ -152,7 +152,7 @@ function Eid  ( giftBranch, giftSourse) {
 Eid.prototype.allEidGifts = [];
 
 
-new Eid('others', '../assests/eidproducts/img (1).jpeg');
+new Eid('others', '../gift-center/assests/eidproducts/img (1).jpeg');
 new Eid('sweets', '../assests/eidproducts/img (1).jpg');
 new Eid('sweets', '../assests/eidproducts/img (1).png');
 new Eid('sweets', '../assests/eidproducts/img (2).jpg');
