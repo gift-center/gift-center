@@ -83,23 +83,23 @@ function christmas  ( giftBranch, giftSourse) {
 }
 
 christmas.prototype.allChristamsGifts = [];
-new christmas('sweets','../assests/christmasproducts/img (1).jpeg');
-new christmas('sweets','assests/christmasproducts/img (1).jpg');
-new christmas('others','assests/christmasproducts/img (1).png');
-new christmas('others','assests/christmasproducts/img (2).jpeg');
-new christmas('sweets','assests/christmasproducts/img (2).jpg');
-new christmas('sweets','assests/christmasproducts/img (3).jpg');
-new christmas('others','assests/christmasproducts/img (4).jpg');
-new christmas('sweets','assests/christmasproducts/img (5).jpg');
-new christmas('sweets','assests/christmasproducts/img (6).jpg');
-new christmas('sweets','assests/christmasproducts/img (7).jpg');
-new christmas('sweets','assests/christmasproducts/img (8).jpg');
-new christmas('sweets','assests/christmasproducts/img (9).jpg');
-new christmas('sweets','assests/christmasproducts/img (10).jpg');
-new christmas('sweets','assests/christmasproducts/img (11).jpg');
-new christmas('others','assests/christmasproducts/img (12).jpg');
-new christmas('others','assests/christmasproducts/img (13).jpg');
-new christmas('sweets','assests/christmasproducts/img (14).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (1).jpeg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (1).jpg');
+new christmas('others','../gift-center/assests/christmasproducts/img (1).png');
+new christmas('others','../gift-center/assests/christmasproducts/img (2).jpeg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (2).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (3).jpg');
+new christmas('others','../gift-center/assests/christmasproducts/img (4).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (5).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (6).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (7).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (8).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (9).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (10).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (11).jpg');
+new christmas('others','../gift-center/assests/christmasproducts/img (12).jpg');
+new christmas('others','../gift-center/assests/christmasproducts/img (13).jpg');
+new christmas('sweets','../gift-center/assests/christmasproducts/img (14).jpg');
 
 
 
@@ -132,10 +132,10 @@ for (var i=0 ; i<christmas.prototype.allChristamsGifts.length;i++){
   }
 }
 if(christmasproducts == 0){
-  window.location.replace("../index.html");
+  window.location.replace("../gift-center/index.html");
 }else{
 localStorage.setItem("Gifts",JSON.stringify(christmasproducts));
-window.location.replace("../result.html");
+window.location.replace("../gift-center/result.html");
 }
 
 }
@@ -153,24 +153,24 @@ Eid.prototype.allEidGifts = [];
 
 
 new Eid('others', '../gift-center/assests/eidproducts/img (1).jpeg');
-new Eid('sweets', '../assests/eidproducts/img (1).jpg');
-new Eid('sweets', '../assests/eidproducts/img (1).png');
-new Eid('sweets', '../assests/eidproducts/img (2).jpg');
-new Eid('sweets', '../assests/eidproducts/img (2).png');
-new Eid('sweets', '../assests/eidproducts/img (3).jpg');
-new Eid('sweets', '../assests/eidproducts/img (4).jpg');
-new Eid('sweets', '../assests/eidproducts/img (5).jpg');
-new Eid('sweets', '../assests/eidproducts/img (1).jpg');
-new Eid('others', '../assests/eidproducts/img (7).jpg');
-new Eid('others', '../assests/eidproducts/img (8).jpg');
-new Eid('sweets', '../assests/eidproducts/img (9).jpg');
-new Eid('sweets', '../assests/eidproducts/img (10).jpg');
-new Eid('others', '../assests/eidproducts/img (11).jpg');
-new Eid('others', '../assests/eidproducts/img (12).jpg');
-new Eid('sweets', '../assests/eidproducts/img (13).jpg');
-new Eid('sweets', '../assests/eidproducts/img (14).jpg');
-new Eid('sweets', '../assests/eidproducts/img (15).jpg');
-new Eid('others', '../assests/eidproducts/img (16).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (1).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (1).png');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (2).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (2).png');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (3).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (4).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (5).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (1).jpg');
+new Eid('others', '../gift-center/assests/eidproducts/img (7).jpg');
+new Eid('others', '../gift-center/assests/eidproducts/img (8).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (9).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (10).jpg');
+new Eid('others', '../gift-center/assests/eidproducts/img (11).jpg');
+new Eid('others', '../gift-center/assests/eidproducts/img (12).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (13).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (14).jpg');
+new Eid('sweets', '../gift-center/assests/eidproducts/img (15).jpg');
+new Eid('others', '../gift-center/assests/eidproducts/img (16).jpg');
 
 
 function result1 (){
@@ -221,26 +221,26 @@ GetWell.prototype.allGetWellGifts = [];
 
 
 
-new GetWell('sweets', '../assests/GetWellImg/img1.jpg');
-new GetWell('toy', '../assests/GetWellImg/img2.jpg');
-new GetWell('toy', '../assests/GetWellImg/img3.jpg');
-new GetWell('toy', '../assests/GetWellImg/img4.jpg');
-new GetWell('sweets', '../assests/GetWellImg/img5.jpg');
-new GetWell('sweets', '../assests/GetWellImg/img6.jpeg');
-new GetWell('sweets', '../assests/GetWellImg/img7.jpg');
-new GetWell('sweets', '../assests/GetWellImg/img8.jpg');
-new GetWell('sweets', '../assests/GetWellImg/img10.jpg');
-new GetWell('others', '../assests/GetWellImg/img11.jpg');
-new GetWell('fruit', '../assests/GetWellImg/img12.jpg');
-new GetWell('toy', '../assests/GetWellImg/img13.jpg');
-new GetWell('skincare', '../assests/GetWellImg/img14.jpg');
-new GetWell('others', '../assests/GetWellImg/img15.jpg');
-new GetWell('others', '../assests/GetWellImg/img16.jpg');
-new GetWell('others', '../assests/GetWellImg/img17.jpg');
-new GetWell('skincare', '../assests/GetWellImg/img18.jpg');
-new GetWell('sweets', '../assests/GetWellImg/img19.jpeg');
-new GetWell('sweets', '../assests/GetWellImg/img20.jpg');
-new GetWell('others', '../assests/GetWellImg/img21.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img1.jpg');
+new GetWell('toy', '../gift-center/assests/GetWellImg/img2.jpg');
+new GetWell('toy', '../gift-center/assests/GetWellImg/img3.jpg');
+new GetWell('toy', '../gift-center/assests/GetWellImg/img4.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img5.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img6.jpeg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img7.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img8.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img10.jpg');
+new GetWell('others', '../gift-center/assests/GetWellImg/img11.jpg');
+new GetWell('fruit', '../gift-center/assests/GetWellImg/img12.jpg');
+new GetWell('toy', '../gift-center/assests/GetWellImg/img13.jpg');
+new GetWell('skincare', '../gift-center/assests/GetWellImg/img14.jpg');
+new GetWell('others', '../gift-center/assests/GetWellImg/img15.jpg');
+new GetWell('others', '../gift-center/assests/GetWellImg/img16.jpg');
+new GetWell('others', '../gift-center/assests/GetWellImg/img17.jpg');
+new GetWell('skincare', '../gift-center/assests/GetWellImg/img18.jpg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img19.jpeg');
+new GetWell('sweets', '../gift-center/assests/GetWellImg/img20.jpg');
+new GetWell('others', '../gift-center/assests/GetWellImg/img21.jpg');
 
 
 function result2 (){
@@ -289,10 +289,10 @@ if (others.checked && GetWell.prototype.allGetWellGifts[i].gifBranch== 'others')
 }
 }
 if(getwellproducts == 0){
-  window.location.replace("../index.html");
+  window.location.replace("../gift-center/index.html");
 }else{
 localStorage.setItem("Gifts",JSON.stringify( getwellproducts));
-window.location.replace("../result.html");
+window.location.replace("../gift-center/result.html");
 }
 
 }
@@ -310,40 +310,40 @@ Birthday.prototype.allBirthdayGifts = [];
 
    
 
-new Birthday ('accessory',' ../assests/birthdayproducts/img(1).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(1).png');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(2).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(2).png');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(3).jpg');
-new Birthday ('makeup',' ../assests/birthdayproducts/img(3).png');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(4).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(5).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(6).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(7).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(8).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(9).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(10).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(11).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(12).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(13).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(14).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(15).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(16).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(17).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(18).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(19).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(20).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(21).jpg');
-new Birthday ('others',' ../assests/birthdayproducts/img(22).jpg');
-new Birthday ('accessory',' ../assests/birthdayproducts/img(23).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(24).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(25).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(26).jpg');
-new Birthday ('boxes',' ../assests/birthdayproducts/img(27).jpg');
-new Birthday ('others',' ../assests/birthdayproducts/img(28).jpg');
-new Birthday ('others',' ../assests/birthdayproducts/img(29).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(30).jpg');
-new Birthday ('sweets',' ../assests/birthdayproducts/img(31).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(1).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(1).png');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(2).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(2).png');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(3).jpg');
+new Birthday ('makeup',' ../gift-center/assests/birthdayproducts/img(3).png');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(4).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(5).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(6).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(7).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(8).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(9).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(10).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(11).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(12).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(13).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(14).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(15).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(16).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(17).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(18).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(19).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(20).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(21).jpg');
+new Birthday ('others',' ../gift-center/assests/birthdayproducts/img(22).jpg');
+new Birthday ('accessory',' ../gift-center/assests/birthdayproducts/img(23).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(24).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(25).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(26).jpg');
+new Birthday ('boxes',' ../gift-center/assests/birthdayproducts/img(27).jpg');
+new Birthday ('others',' ../gift-center/assests/birthdayproducts/img(28).jpg');
+new Birthday ('others',' ../gift-center/assests/birthdayproducts/img(29).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(30).jpg');
+new Birthday ('sweets',' ../gift-center/assests/birthdayproducts/img(31).jpg');
 
 
 function result3 (){
@@ -391,10 +391,10 @@ if (others.checked && Birthday.prototype.allBirthdayGifts[i].gifBranch== 'others
 }
 }
 if(birthdayproducts == 0){
-  window.location.replace("../index.html");
+  window.location.replace("../gift-center/index.html");
 }else{
 localStorage.setItem("Gifts",JSON.stringify( birthdayproducts));
-window.location.replace("../result.html");
+window.location.replace("../gift-center/result.html");
 }
 
 }
@@ -409,21 +409,21 @@ function MotherDay (giftBranch,giftSourse){
 
 MotherDay.prototype.allMotherDayGifts = []; 
 
-new MotherDay ('others','../assests/MothersDayImg/img1.jpg');
-new MotherDay ('boxes','../assests/MothersDayImg/img2.jpg');
-new MotherDay ('boxes','../assests/MothersDayImg/img3.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img4.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img5.jpg');
-new MotherDay ('boxes','../assests/MothersDayImg/img6.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img8.jpg');
-new MotherDay ('accessory','../assests/MothersDayImg/img9.jpg');
-new MotherDay ('boxes','../assests/MothersDayImg/img10.jpg');
-new MotherDay ('clothes','../assests/MothersDayImg/img11.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img12.jpg');
-new MotherDay ('boxes','../assests/MothersDayImg/img13.jpg');
-new MotherDay ('rose','../assests/MothersDayImg/img14.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img15.jpg');
-new MotherDay ('others','../assests/MothersDayImg/img16.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img1.jpg');
+new MotherDay ('boxes','../gift-center/assests/MothersDayImg/img2.jpg');
+new MotherDay ('boxes','../gift-center/assests/MothersDayImg/img3.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img4.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img5.jpg');
+new MotherDay ('boxes','../gift-center/assests/MothersDayImg/img6.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img8.jpg');
+new MotherDay ('accessory','../gift-center/assests/MothersDayImg/img9.jpg');
+new MotherDay ('boxes','../gift-center/assests/MothersDayImg/img10.jpg');
+new MotherDay ('clothes','../gift-center/assests/MothersDayImg/img11.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img12.jpg');
+new MotherDay ('boxes','../gift-center/assests/MothersDayImg/img13.jpg');
+new MotherDay ('rose','../gift-center/assests/MothersDayImg/img14.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img15.jpg');
+new MotherDay ('others','../gift-center/assests/MothersDayImg/img16.jpg');
 
 
 
@@ -467,10 +467,10 @@ function result4 (){
   }
   }
   if(motherdayproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(motherdayproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -484,22 +484,22 @@ function NewPorn (giftBranch,giftSourse){
 
 NewPorn.prototype.allNewPornGifts = []; 
 
-new NewPorn ('carriage','../assests/NewBornImg/img1.webp');
-new NewPorn ('clothes','../assests/NewBornImg/img2.jpg');
-new NewPorn ('boxes','../assests/NewBornImg/img3.jpg');
-new NewPorn ('boxes','../assests/NewBornImg/img4.jpg');
-new NewPorn ('boxes','../assests/NewBornImg/img5.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img6.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img7.png');
-new NewPorn ('boxes','../assests/NewBornImg/img8.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img9.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img10.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img11.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img12.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img13.webp');
-new NewPorn ('clothes','../assests/NewBornImg/img14.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img16.jpg');
-new NewPorn ('clothes','../assests/NewBornImg/img17.jpg');
+new NewPorn ('carriage','../gift-center/assests/NewBornImg/img1.webp');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img2.jpg');
+new NewPorn ('boxes','../gift-center/assests/NewBornImg/img3.jpg');
+new NewPorn ('boxes','../gift-center/assests/NewBornImg/img4.jpg');
+new NewPorn ('boxes','../gift-center/assests/NewBornImg/img5.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img6.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img7.png');
+new NewPorn ('boxes','../gift-center/assests/NewBornImg/img8.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img9.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img10.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img11.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img12.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img13.webp');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img14.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img16.jpg');
+new NewPorn ('clothes','../gift-center/assests/NewBornImg/img17.jpg');
 
 
 
@@ -529,10 +529,10 @@ function result5 (){
   }
   }
   if(newpornproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(newpornproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -545,26 +545,26 @@ function Graduation (giftBranch,giftSourse){
 
 Graduation.prototype.allGraduationGifts = []; 
 
-new Graduation ('others','../assests/graduationsproducts/img-1.jpeg');
-new Graduation ('others','../assests/graduationsproducts/img-2.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-3.png');
-new Graduation ('others','../assests/graduationsproducts/img-4.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-5.png');
-new Graduation ('others','../assests/graduationsproducts/img-6.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-7.jpg');
-new Graduation ('boxes','../assests/graduationsproducts/img-8.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-9.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-10.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-11.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-12.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-13.jpg');
-new Graduation ('sweets','../assests/graduationsproducts/img-14.jpg');
-new Graduation ('sweetes','../assests/graduationsproducts/img-15.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-16.jpg');
-new Graduation ('sweetes','../assests/graduationsproducts/img-17.jpg');
-new Graduation ('boxes','../assests/graduationsproducts/img-18.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-19.jpg');
-new Graduation ('others','../assests/graduationsproducts/img-20.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-1.jpeg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-2.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-3.png');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-4.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-5.png');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-6.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-7.jpg');
+new Graduation ('boxes','../gift-center/assests/graduationsproducts/img-8.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-9.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-10.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-11.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-12.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-13.jpg');
+new Graduation ('sweets','../gift-center/assests/graduationsproducts/img-14.jpg');
+new Graduation ('sweetes','../gift-center/assests/graduationsproducts/img-15.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-16.jpg');
+new Graduation ('sweetes','../gift-center/assests/graduationsproducts/img-17.jpg');
+new Graduation ('boxes','../gift-center/assests/graduationsproducts/img-18.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-19.jpg');
+new Graduation ('others','../gift-center/assests/graduationsproducts/img-20.jpg');
 
 
 
@@ -594,10 +594,10 @@ function result6 (){
   }
   }
   if(graduationproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(graduationproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -611,23 +611,23 @@ function NewHome (giftBranch,giftSourse){
 
 NewHome.prototype.allNewHomeGifts = []; 
 
-new NewHome ('others','../assests/homeImage/img1.jpg');
-new NewHome ('others','../assests/homeImage/img2.jpg');
-new NewHome ('others','../assests/homeImage/img3.jpg');
-new NewHome ('others','../assests/homeImage/img4.jpg');
-new NewHome ('others','../assests/homeImage/img5.jpg');
-new NewHome ('others','../assests/homeImage/img6.jpg');
-new NewHome ('others','../assests/homeImage/img7.jpg');
-new NewHome ('others','../assests/homeImage/img8.jpg');
-new NewHome ('others','../assests/homeImage/img9.jpg');
-new NewHome ('others','../assests/homeImage/img10.jpg');
-new NewHome ('others','../assests/homeImage/img11.jpg');
-new NewHome ('others','../assests/homeImage/img12.jpg');
-new NewHome ('others','../assests/homeImage/img13.jpg');
-new NewHome ('others','../assests/homeImage/img14.jpg');
-new NewHome ('others','../assests/homeImage/img15.jpg');
-new NewHome ('others','../assests/homeImage/img16.jpg');
-new NewHome ('others','../assests/homeImage/img17.png');
+new NewHome ('others','../gift-center/assests/homeImage/img1.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img2.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img3.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img4.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img5.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img6.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img7.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img8.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img9.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img10.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img11.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img12.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img13.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img14.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img15.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img16.jpg');
+new NewHome ('others','../gift-center/assests/homeImage/img17.png');
 
 
 
@@ -649,10 +649,10 @@ if (others.checked || NewHome.prototype.allNewHomeGifts[i].giftBranch == 'others
 }
   }
   if(newhomeproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(newhomeproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -667,24 +667,24 @@ function NewYear (giftBranch,giftSourse){
 
 NewYear.prototype.allNewYearGifts = []; 
 
-new NewYear ('sweets','../assests/NewYearIMG/img1.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img2.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img3.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img4.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img5.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img6.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img7.jpg');
-new NewYear ('others','../assests/NewYearIMG/img8.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img9.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img10.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img11.jpg');
-new NewYear ('rose','../assests/NewYearIMG/img12.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img13.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img14.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img15.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img16.jpg');
-new NewYear ('sweets','../assests/NewYearIMG/img17.jpg');
-new NewYear ('boxes','../assests/NewYearIMG/img18.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img1.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img2.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img3.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img4.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img5.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img6.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img7.jpg');
+new NewYear ('others','../gift-center/assests/NewYearIMG/img8.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img9.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img10.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img11.jpg');
+new NewYear ('rose','../gift-center/assests/NewYearIMG/img12.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img13.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img14.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img15.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img16.jpg');
+new NewYear ('sweets','../gift-center/assests/NewYearIMG/img17.jpg');
+new NewYear ('boxes','../gift-center/assests/NewYearIMG/img18.jpg');
 
 function result8 (){
 
@@ -717,10 +717,10 @@ function result8 (){
   }
   }
   if(newyearproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(newyearproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -734,26 +734,26 @@ function Ramadan (giftBranch,giftSourse){
 
 Ramadan.prototype.allRamadanGifts = []; 
 
-new Ramadan ('others','../assests/RamadanImage/img-1.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-2.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-3.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-4.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-5.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-6.jpg');
-new Ramadan ('Vibes','../assests/RamadanImage/img-7.jpg');
-new Ramadan ('Vibes','../assests/RamadanImage/img-8.jpg');
-new Ramadan ('Vibes','../assests/RamadanImage/img-9.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-10.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-11.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-12.png');
-new Ramadan ('others','../assests/RamadanImage/img-13.jpg');
-new Ramadan ('Vibes','../assests/RamadanImage/img-14.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-15.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-16.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-17.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-18.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-19.jpg');
-new Ramadan ('others','../assests/RamadanImage/img-20.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-1.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-2.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-3.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-4.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-5.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-6.jpg');
+new Ramadan ('Vibes','../gift-center/assests/RamadanImage/img-7.jpg');
+new Ramadan ('Vibes','../gift-center/assests/RamadanImage/img-8.jpg');
+new Ramadan ('Vibes','../gift-center/assests/RamadanImage/img-9.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-10.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-11.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-12.png');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-13.jpg');
+new Ramadan ('Vibes','../gift-center/assests/RamadanImage/img-14.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-15.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-16.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-17.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-18.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-19.jpg');
+new Ramadan ('others','../gift-center/assests/RamadanImage/img-20.jpg');
 
 
 
@@ -780,10 +780,10 @@ function result9 (){
   }
   }
   if(ramadanproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(ramadanproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -797,27 +797,27 @@ function Valentine (giftBranch,giftSourse){
 
 Valentine.prototype.allValentineGifts = []; 
 
-new Valentine ('boxes','../assests/valentineIMG/img 1.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 2.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 3.jpg');
-new Valentine ('others','../assests/valentineIMG/img 4.jpg');
-new Valentine ('others','../assests/valentineIMG/img 5.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 6.jpg');
-new Valentine ('rose','../assests/valentineIMG/img 7.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 8.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 9.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 10.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 11.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 12.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 13.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 14.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 15.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 16.jpg');
-new Valentine ('sweets','../assests/valentineIMG/img 17.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 18.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 19.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 20.jpg');
-new Valentine ('boxes','../assests/valentineIMG/img 21.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 1.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 2.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 3.jpg');
+new Valentine ('others','../gift-center/assests/valentineIMG/img 4.jpg');
+new Valentine ('others','../gift-center/assests/valentineIMG/img 5.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 6.jpg');
+new Valentine ('rose','../gift-center/assests/valentineIMG/img 7.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 8.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 9.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 10.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 11.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 12.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 13.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 14.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 15.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 16.jpg');
+new Valentine ('sweets','../gift-center/assests/valentineIMG/img 17.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 18.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 19.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 20.jpg');
+new Valentine ('boxes','../gift-center/assests/valentineIMG/img 21.jpg');
 
 
 function result10 (){
@@ -848,10 +848,10 @@ function result10 (){
   }
   }
   if(valentineproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(valentineproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
@@ -865,24 +865,24 @@ function Wedding (giftBranch,giftSourse){
 
 Wedding.prototype.allWeddingGifts = []; 
 
-new Wedding ('boxes','../assests/weddingIMG/img 1.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 2.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 3.jpg');
-new Wedding ('others','../assests/weddingIMG/img 4.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 5.jpg');
-new Wedding ('others','../assests/weddingIMG/img 6.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 7.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 8.png');
-new Wedding ('others','../assests/weddingIMG/img 9.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 10.jpg');
-new Wedding ('others','../assests/weddingIMG/img 11.jpg');
-new Wedding ('perfume','../assests/weddingIMG/img 12.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 13.jpg');
-new Wedding ('others','../assests/weddingIMG/img 14.jpg');
-new Wedding ('others','../assests/weddingIMG/img 15.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 16.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 17.jpg');
-new Wedding ('boxes','../assests/weddingIMG/img 18.jpeg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 1.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 2.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 3.jpg');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 4.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 5.jpg');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 6.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 7.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 8.png');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 9.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 10.jpg');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 11.jpg');
+new Wedding ('perfume','../gift-center/assests/weddingIMG/img 12.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 13.jpg');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 14.jpg');
+new Wedding ('others','../gift-center/assests/weddingIMG/img 15.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 16.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 17.jpg');
+new Wedding ('boxes','../gift-center/assests/weddingIMG/img 18.jpeg');
 
 
 function result11 (){
@@ -913,10 +913,10 @@ function result11 (){
   }
   }
   if(weddingproducts == 0){
-    window.location.replace("../index.html");
+    window.location.replace("../gift-center/index.html");
   }else{
   localStorage.setItem("Gifts",JSON.stringify(weddingproducts));
-  window.location.replace("../result.html");
+  window.location.replace("../gift-center/result.html");
   console.log('test')
   }
   }
