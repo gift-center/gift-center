@@ -594,7 +594,7 @@ if(localStorage.getItem("rendersShopsForKids")){
 
 function rendersShopsForFlower(){
     
-    window.location.replace("../shop.html");
+    window.location.replace("/shop.html");
     localStorage.setItem("rendersShopsForFlowers",1);
 }
 if(localStorage.getItem("rendersShopsForFlowers")){

@@ -131,9 +131,12 @@ for (var i=0 ; i<christmas.prototype.allChristamsGifts.length;i++){
     christmasproducts.push(christmas.prototype.allChristamsGifts[i].giftSourse); 
   }
 }
+if(christmasproducts == 0){
+  window.location.replace("../index.html");
+}else{
 localStorage.setItem("Gifts",JSON.stringify(christmasproducts));
 window.location.replace("../result.html");
-
+}
 
 }
 
@@ -198,10 +201,13 @@ if (others.checked && Eid.prototype.allEidGifts[i].gifBranch== 'others'){
   eidproducts.push(Eid.prototype.allEidGifts[i].giftSourse); 
 }
 }
+if(eidproducts == 0){
+  window.location.replace("../index.html");
+}else{
 localStorage.setItem("Gifts",JSON.stringify( eidproducts));
 window.location.replace("../result.html");
 
-
+}
 }
 
 
@@ -282,9 +288,12 @@ if (others.checked && GetWell.prototype.allGetWellGifts[i].gifBranch== 'others')
   getwellproducts.push(GetWell.prototype.allGetWellGifts[i].giftSourse); 
 }
 }
+if(getwellproducts == 0){
+  window.location.replace("../index.html");
+}else{
 localStorage.setItem("Gifts",JSON.stringify( getwellproducts));
 window.location.replace("../result.html");
-
+}
 
 }
 
@@ -381,9 +390,12 @@ if (others.checked && Birthday.prototype.allBirthdayGifts[i].gifBranch== 'others
   birthdayproducts.push(Birthday.prototype.allBirthdayGifts[i].giftSourse); 
 }
 }
+if(birthdayproducts == 0){
+  window.location.replace("../index.html");
+}else{
 localStorage.setItem("Gifts",JSON.stringify( birthdayproducts));
 window.location.replace("../result.html");
-
+}
 
 }
 
@@ -454,10 +466,13 @@ function result4 (){
     motherdayproducts.push(MotherDay.prototype.allMotherDayGifts[i].giftSourse); 
   }
   }
+  if(motherdayproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(motherdayproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
   
   
@@ -513,10 +528,13 @@ function result5 (){
     newpornproducts.push(NewPorn.prototype.allNewPornGifts[i].giftSourse); 
   }
   }
+  if(newpornproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(newpornproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
   
 function Graduation (giftBranch,giftSourse){
@@ -575,10 +593,13 @@ function result6 (){
     graduationproducts.push(Graduation.prototype.allGraduationGifts[i].giftSourse); 
   }
   }
+  if(graduationproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(graduationproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
 
   
@@ -627,10 +648,13 @@ if (others.checked || NewHome.prototype.allNewHomeGifts[i].giftBranch == 'others
   newhomeproducts.push(NewHome.prototype.allNewHomeGifts[i].giftSourse); 
 }
   }
+  if(newhomeproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(newhomeproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
 
   
@@ -692,10 +716,13 @@ function result8 (){
     newyearproducts.push(NewYear.prototype.allNewYearGifts[i].giftSourse); 
   }
   }
+  if(newyearproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(newyearproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
 
   
@@ -752,10 +779,13 @@ function result9 (){
     ramadanproducts.push(Ramadan.prototype.allRamadanGifts[i].giftSourse); 
   }
   }
+  if(ramadanproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(ramadanproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
 
   
@@ -817,10 +847,13 @@ function result10 (){
     valentineproducts.push(Valentine.prototype.allValentineGifts[i].giftSourse); 
   }
   }
+  if(valentineproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(valentineproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
 
   
@@ -879,8 +912,11 @@ function result11 (){
     weddingproducts.push(Wedding.prototype.allWeddingGifts[i].giftSourse); 
   }
   }
+  if(weddingproducts == 0){
+    window.location.replace("../index.html");
+  }else{
   localStorage.setItem("Gifts",JSON.stringify(weddingproducts));
   window.location.replace("../result.html");
   console.log('test')
-  
+  }
   }
