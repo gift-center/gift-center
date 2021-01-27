@@ -32,7 +32,7 @@ var eform = document.getElementById("p-form");
 function closep(){
   var formcol =document.getElementById("divform");
   formcol.setAttribute("class","hideform");
-  window.location.replace("../index.html");
+  window.location.replace("../gift-center/index.html");
 
 }
 var createform = document.getElementsByClassName("orderform");
@@ -83,7 +83,7 @@ function christmas  ( giftBranch, giftSourse) {
 }
 
 christmas.prototype.allChristamsGifts = [];
-new christmas('sweets','assests/christmasproducts/img (1).jpeg');
+new christmas('sweets','../assests/christmasproducts/img (1).jpeg');
 new christmas('sweets','assests/christmasproducts/img (1).jpg');
 new christmas('others','assests/christmasproducts/img (1).png');
 new christmas('others','assests/christmasproducts/img (2).jpeg');
@@ -202,10 +202,10 @@ if (others.checked && Eid.prototype.allEidGifts[i].gifBranch== 'others'){
 }
 }
 if(eidproducts == 0){
-  window.location.replace("../index.html");
+  window.location.replace("../gift-center/index.html");
 }else{
 localStorage.setItem("Gifts",JSON.stringify( eidproducts));
-window.location.replace("../result.html");
+window.location.replace("../gift-center/result.html");
 
 }
 }
