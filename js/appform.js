@@ -667,24 +667,24 @@ function NewYear (giftBranch,giftSourse){
 
 NewYear.prototype.allNewYearGifts = []; 
 
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img1.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img2.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img3.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img4.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img5.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img6.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img7.jpg');
-new NewYear ('others','../gift-center/assests/NewYearIMG/img8.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img9.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img10.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img11.jpg');
-new NewYear ('rose','../gift-center/assests/NewYearIMG/img12.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img13.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img14.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img15.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img16.jpg');
-new NewYear ('sweets','../gift-center/assests/NewYearIMG/img17.jpg');
-new NewYear ('boxes','../gift-center/assests/NewYearIMG/img18.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img1.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img2.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img3.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img4.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img5.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img6.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img7.jpg');
+new NewYear ('others','../gift-center/assests/newYearIMG/img8.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img9.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img10.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img11.jpg');
+new NewYear ('rose','../gift-center/assests/newYearIMG/img12.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img13.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img14.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img15.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img16.jpg');
+new NewYear ('sweets','../gift-center/assests/newYearIMG/img17.jpg');
+new NewYear ('boxes','../gift-center/assests/newYearIMG/img18.jpg');
 
 function result8 (){
 
