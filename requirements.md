@@ -38,7 +38,7 @@ Ans. It could ease the job of the person who will buy the gift by giving him/her
 The user will open the web app, then the home page will be displayed with multi occassion sections and each section has an order button, if the user click on this button, a form with interests checkbox, gender and the budget will appear to the user to fill it, then a list of products and ideas will be displayed for the user. If the user want to buy a gift, he/she can visit the shop bar that contains a list of shops divded by categories. At the end, if the user want to leave a comment or feedback, he/she will go to feedback bar.
 
 # Wireframe
-![This is our wireframe for the project](../gift-center/assests/homepage.PNG)
+![This is our wireframe for the project](https://github.com/gift-center/gift-center/blob/main/assests/homepage.PNG)
 
 # User Stories
 1. As a user, I want to see all possible occasions on the homepage, so I can choose the occasion that will happen nearly.
