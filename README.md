@@ -2,5 +2,5 @@
 ## Our website provides the suggestions and ideas of gifts for different occasions.
 
 ### Domain Model
-![Domain Model 1](../gift-center/assests/domainModel1.PNG)
-![Domain Model 2](../gift-center/assests/domainModel2.PNG)
+![Domain Model 1](https://github.com/gift-center/gift-center/blob/main/assests/domainModel1.png)
+![Domain Model 2](https://github.com/gift-center/gift-center/blob/main/assests/domainModel2.png)
